@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+    Over 5000 Choices
+  <!-- Global Phrases -->
+  <phrase section="Global" data="ABOUT">על אודות</phrase>
+  <phrase section="Global" data="ACCESS">גִישָׁה</phrase>
+  <phrase section="Global" data="ACTIONS">פעולות</phrase>
+  <phrase section="Global" data="ACTIVATE">לְהַפְעִיל</phrase>
+  <phrase section="Global" data="ACTIVE">פָּעִיל</phrase>
+  <phrase section="Global" data="AGREE">כן, אני מסכים למדיניות הפרטיות</phrase>
+  <phrase section="Global" data="ADD">לְהוֹסִיף</phrase>
+  <phrase section="Global" data="ADDRESS">כתובת</phrase>
+  <phrase section="Global" data="ALERT">עֵרָנִי</phrase>
+  <phrase section="Global" data="ALL">את כל</phrase>
+  <phrase section="Global" data="APPLY">להגיש מועמדות</phrase>
+  <phrase section="Global" data="APPROVE">לְאַשֵׁר</phrase>
+  <phrase section="Global" data="ARCHIVE">ארכיון</phrase>
+  <phrase section="Global" data="AVATAR">גִלגוּל</phrase>
+  <phrase section="Global" data="BACK">חזור</phrase>
+  <phrase section="Global" data="BACKTO">חזרה אל [NAME]</phrase>
+  <phrase section="Global" data="BACKTOLOGIN">חזרה לכניסה</phrase>
+  <phrase section="Global" data="BANNED">אָסוּר</phrase>
+  <phrase section="Global" data="BGIMG">תמונת רקע</phrase>
+  <phrase section="Global" data="BROWSE">לְדַפדֵף...</phrase>
+  <phrase section="Global" data="BY">על ידי</phrase>
+  <phrase section="Global" data="CANCEL">לְבַטֵל</phrase>
+  <phrase section="Global" data="CAPTCHA">Captcha</phrase>
+  <phrase section="Global" data="CATEGORIES">קטגוריות</phrase>
+  <phrase section="Global" data="CATEGORY">קטגוריה</phrase>
+  <phrase section="Global" data="CHARSET">A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y, ז</phrase>
+  <phrase section="Global" data="CHECKOUT">לבדוק</phrase>
+  <phrase section="Global" data="CHOOSE">בחר קובץ...</phrase>
+  <phrase section="Global" data="CITY">עִיר</phrase>
+  <phrase section="Global" data="CLEAR">ברור</phrase>
+  <phrase section="Global" data="CLOSE">סגור</phrase>
+  <phrase section="Global" data="COMMENTS">הערות</phrase>
+  <phrase section="Global" data="COMPARE">לְהַשְׁווֹת</phrase>
+  <phrase section="Global" data="COMPLETED">הושלם</phrase>
+  <phrase section="Global" data="CONPASS">אשר סיסמה</phrase>
+  <phrase section="Global" data="CONTACT">איש קשר</phrase>
+  <phrase section="Global" data="CONTENT">תוֹכֶן</phrase>
+  <phrase section="Global" data="CONTENT_NOT_FOUND">לא נמצא תוכן מתחת לדף זה!.</phrase>
+  <phrase section="Global" data="COPY">עותק</phrase>
+  <phrase section="Global" data="COUNTRY">מדינה</phrase>
+  <phrase section="Global" data="COUNTRY_LIST">רשימת מדינות</phrase>
+  <phrase section="Global" data="CREATED">נוצר</phrase>
+  <phrase section="Global" data="CUT">גזירה</phrase>
+  <phrase section="Global" data="DATE">תַאֲרִיך</phrase>
+  <phrase section="Global" data="DEFAULT">בְּרִירַת מֶחדָל</phrase>
+  <phrase section="Global" data="DELCONFIRM1">האם אתה בטוח שברצונך למחוק את הרשומה הזו?</phrase>
+  <phrase section="Global" data="DELCONFIRM10">לשחזר את [NAME]?</phrase>
+  <phrase section="Global" data="DELCONFIRM11">פעולה זו תשחזר את הפריט למצבו המקורי.</phrase>
+  <phrase section="Global" data="DELCONFIRM2">פעולה זו לא ניתנת לביטול!!!</phrase>
+  <phrase section="Global" data="DELCONFIRM3">הפריט יישאר באשפה למשך 30 יום. כדי להסיר אותו לצמיתות, עבור אל האשפה ורוקנו אותו.</phrase>
+  <phrase section="Global" data="DELCONFIRM4">להעביר את [NAME] לארכיון?</phrase>
+  <phrase section="Global" data="DELCONFIRM5">זה ישאיר את המשתמש ב-DDP שלך, אבל ימנע ממנו להיכנס.</phrase>
+  <phrase section="Global" data="DELCONFIRM6">להסיר את [NAME] מהארכיון?</phrase>
+  <phrase section="Global" data="DELCONFIRM7">פעולה זו תחזיר את המשתמש למצבו המקורי.</phrase>
+  <phrase section="Global" data="DELCONFIRM8">פעולה זו תחזיר את החברה למצבה המקורי.</phrase>
+  <phrase section="Global" data="DELETE">לִמְחוֹק</phrase>
+  <phrase section="Global" data="DELETE_REC">מחק רשומה</phrase>
+  <phrase section="Global" data="DELETED">נמחק בהצלחה!</phrase>
+  <phrase section="Global" data="DESCRIPTION">הסבר על המוצר או השירות</phrase>
+  <phrase section="Global" data="DONE">בוצע</phrase>
+  <phrase section="Global" data="DOWNLOAD">הורד</phrase>
+  <phrase section="Global" data="DOWNLOADS">הורדות</phrase>
+  <phrase section="Global" data="DUPLICATE">לְשַׁכְפֵּל</phrase>
+  <phrase section="Global" data="EDIT">לַעֲרוֹך</phrase>
+  <phrase section="Global" data="EDITOR">עוֹרֵך</phrase>
+  <phrase section="Global" data="EMAIL">אימייל</phrase>
+  <phrase section="Global" data="EMAIL_R1">נא להזין כתובת אימייל חוקית</phrase>
+  <phrase section="Global" data="EMAIL_R2">כתובת האימייל שהוזנה כבר בשימוש.</phrase>
+  <phrase section="Global" data="EMAIL_R3">כתובת האימייל שהוזנה אינה חוקית.</phrase>
+  <phrase section="Global" data="EMAIL_R4">כתובת האימייל שהוזנה לא קיימת.</phrase>
+  <phrase section="Global" data="EMAIL_R5">כתובת אימייל לא חוקית.</phrase>
+  <phrase section="Global" data="ERROR">שְׁגִיאָה</phrase>
+  <phrase section="Global" data="EXPORT">יְצוּא</phrase>
+  <phrase section="Global" data="EXT_LINK">קישור חיצוני</phrase>
+  <phrase section="Global" data="FIELD_R0">שדה</phrase>
+  <phrase section="Global" data="FIELD_R1">צריך להיות באורך [X] או פחות.</phrase>
+  <phrase section="Global" data="FIELD_R10">עשוי להכיל רק תווי אלפא ומקפים.</phrase>
+  <phrase section="Global" data="FIELD_R100">נדרש.</phrase>
+  <phrase section="Global" data="FIELD_R11">צריך להכיל אחד מהערכים הבאים: [VAL]</phrase>
+  <phrase section="Global" data="FIELD_R12">צריך להתחיל עם [VAL]</phrase>
+  <phrase section="Global" data="FIELD_R13">אינו שווה לשדה [VAL].</phrase>
+  <phrase section="Global" data="FIELD_R14">אינה כתובת אתר חוקית.</phrase>
+  <phrase section="Global" data="FIELD_R15">כתובת האתר לא קיימת.</phrase>
+  <phrase section="Global" data="FIELD_R16">אינו IP חוקי.</phrase>
+  <phrase section="Global" data="FIELD_R17">אינו מספר כרטיס אשראי.</phrase>
+  <phrase section="Global" data="FIELD_R18">אינה כתובת אימייל חוקית.</phrase>
+  <phrase section="Global" data="FIELD_R19">אינו מספר עשרוני חוקי.</phrase>
+  <phrase section="Global" data="FIELD_R2">צריך להיות באורך [X] או יותר.</phrase>
+  <phrase section="Global" data="FIELD_R3">לא תקף.</phrase>
+  <phrase section="Global" data="FIELD_R4">הוא תאריך לא חוקי.</phrase>
+  <phrase section="Global" data="FIELD_R5">עשוי להכיל תווים מספריים בלבד.</phrase>
+  <phrase section="Global" data="FIELD_R6">עשוי להכיל רק ערך מספרי.</phrase>
+  <phrase section="Global" data="FIELD_R7">צריך להיות באורך של [X] תווים בדיוק.</phrase>
+  <phrase section="Global" data="FIELD_R8">עשוי להכיל רק תווי אלפא(az).</phrase>
+  <phrase section="Global" data="FIELD_R9">עשוי להכיל רק תווים אלפא-נומריים.</phrase>
+  <phrase section="Global" data="FILE">קוֹבֶץ</phrase>
+  <phrase section="Global" data="FILE_ERR">לא ניתן היה להעביר את הקובץ מתיקיית ההעלאה הזמנית לתיקיית התמונות.</phrase>
+  <phrase section="Global" data="FILES">קבצים</phrase>
+  <phrase section="Global" data="FILTER">סִנוּן</phrase>
+  <phrase section="Global" data="FILTER_O">אפשרויות סינון</phrase>
+  <phrase section="Global" data="FIND">למצוא</phrase>
+  <phrase section="Global" data="FNAME">שם פרטי</phrase>
+  <phrase section="Global" data="FOR">ל</phrase>
+  <phrase section="Global" data="FREE">חינם</phrase>
+  <phrase section="Global" data="FROM">מ</phrase>
+  <phrase section="Global" data="GO">ללכת</phrase>
+  <phrase section="Global" data="GRID">רֶשֶׁת</phrase>
+  <phrase section="Global" data="GUEST">אוֹרֵחַ</phrase>
+  <phrase section="Global" data="HELLO">שלום</phrase>
+  <phrase section="Global" data="HI">היי,</phrase>
+  <phrase section="Global" data="HI_A">אחר הצהריים טובים</phrase>
+  <phrase section="Global" data="HI_E">ערב טוב</phrase>
+  <phrase section="Global" data="HI_M">בוקר טוב</phrase>
+  <phrase section="Global" data="HISTORY">הִיסטוֹרִיָה</phrase>
+  <phrase section="Global" data="HOME">בית</phrase>
+  <phrase section="Global" data="IMAGE">תמונה</phrase>
+  <phrase section="Global" data="IMAGES">תמונות</phrase>
+  <phrase section="Global" data="IN">ב</phrase>
+  <phrase section="Global" data="INACTIVE">לֹא פָּעִיל</phrase>
+  <phrase section="Global" data="INFO">מידע</phrase>
+  <phrase section="Global" data="INSERT">לְהַכנִיס</phrase>
+  <phrase section="Global" data="INVOICE">חשבונית</phrase>
+  <phrase section="Global" data="ITEM">פריט</phrase>
+  <phrase section="Global" data="ITEMS">פריטים</phrase>
+  <phrase section="Global" data="LANGUAGE">שפה</phrase>
+  <phrase section="Global" data="LASTIP">IP אחרון</phrase>
+  <phrase section="Global" data="LASTLOGIN">כניסה אחרונה</phrase>
+  <phrase section="Global" data="LIKES">אוהב</phrase>
+  <phrase section="Global" data="LIST">רשימה</phrase>
+  <phrase section="Global" data="LNAME">שם משפחה</phrase>
+  <phrase section="Global" data="LOGIN">התחבר</phrase>
+  <phrase section="Global" data="LOGIN_R1">הכניסה ו/או הסיסמה לא התאימו למסד הנתונים.</phrase>
+  <phrase section="Global" data="LOGIN_R2">החשבון שלך נאסר.</phrase>
+  <phrase section="Global" data="LOGIN_R3">החשבון שלך הוא לא מופעל.</phrase>
+  <phrase section="Global" data="LOGIN_R4">עליך לאמת את כתובת הדוא"ל שלך.</phrase>
+  <phrase section="Global" data="LOGIN_R5">נא להזין שם משתמש וסיסמה חוקיים</phrase>
+  <phrase section="Global" data="LOGIN_R6">השם ו/או כתובת האימייל לא תאמו למסד הנתונים.</phrase>
+  <phrase section="Global" data="LOGOUT">להתנתק</phrase>
+  <phrase section="Global" data="MANAGE">לנהל</phrase>
+  <phrase section="Global" data="MAX_R1">מַקסִימוּם</phrase>
+  <phrase section="Global" data="MEMBER">חבר</phrase>
+  <phrase section="Global" data="MEMBERSHIP">חֲבֵרוּת</phrase>
+  <phrase section="Global" data="MEMBERSHIPS">חברות</phrase>
+  <phrase section="Global" data="MESSAGE">הוֹדָעָה</phrase>
+  <phrase section="Global" data="METADESC">מטא תיאור</phrase>
+  <phrase section="Global" data="METAKEYS">מטא מילות מפתח</phrase>
+  <phrase section="Global" data="MIN_R1">מִינִימוּם</phrase>
+  <phrase section="Global" data="MORE">יותר</phrase>
+  <phrase section="Global" data="MOREINFO">מידע נוסף ורכישה</phrase>
+  <phrase section="Global" data="MOVE">מהלך \ לזוז \ לעבור</phrase>
+  <phrase section="Global" data="MOVTOTR">הועבר לאשפה</phrase>
+  <phrase section="Global" data="MTOTRASH">העבר לאשפה</phrase>
+  <phrase section="Global" data="MULTIPLE">מרובות</phrase>
+  <phrase section="Global" data="NAME">שֵׁם</phrase>
+  <phrase section="Global" data="NEVER">לעולם לא</phrase>
+  <phrase section="Global" data="NEWPASS">סיסמה חדשה</phrase>
+  <phrase section="Global" data="NO">לא</phrase>
+  <phrase section="Global" data="NOACCESS">מצטערים אין לי הרשאות חוקיות לגשת לדף זה.</phrase>
+  <phrase section="Global" data="NOFILE">אין קובץ...</phrase>
+  <phrase section="Global" data="NONE">אף אחד</phrase>
+  <phrase section="Global" data="NOPROCCESS">אין מה לעבד!</phrase>
+  <phrase section="Global" data="NOTEVAR">נא לא לשנות ערכים בין [ ]</phrase>
+  <phrase section="Global" data="NOTPUBLISHED">לא פורסם</phrase>
+  <phrase section="Global" data="NOW">עַכשָׁיו</phrase>
+  <phrase section="Global" data="OFF">כבוי</phrase>
+  <phrase section="Global" data="ON">עַל</phrase>
+  <phrase section="Global" data="PAGE">עמוד</phrase>
+  <phrase section="Global" data="PAGE_NOT_FOUND">ייתכן שהדף שאתה מחפש הוסר, ששמו שונה או שאינו זמין באופן זמני!</phrase>
+  <phrase section="Global" data="PASSWORD">סיסמה</phrase>
+  <phrase section="Global" data="PASSWORD_L">שכחת את הסיסמא</phrase>
+  <phrase section="Global" data="PASSWORD_R1">נא להזין סיסמה חוקית.</phrase>
+  <phrase section="Global" data="PASSWORD_R2">הסיסמה שהוזנה אינה אלפאנומרית.</phrase>
+  <phrase section="Global" data="PASSWORD_R3">הסיסמה שלך לא תאמה לסיסמה המאושרת!.</phrase>
+  <phrase section="Global" data="PASSWORD_RES">איפוס סיסמא</phrase>
+  <phrase section="Global" data="PASSWORD_RES_D">הסיסמה נשלחה בהצלחה. אנא בדוק את המייל שלך!</phrase>
+  <phrase section="Global" data="PASSWORD_RES_T">על מנת לאפס את הסיסמה שלך, אנא הזן את כתובת הדוא"ל שלמעלה, בה השתמשת לרישום חשבונך.</phrase>
+  <phrase section="Global" data="PASSWORD_T">השאר אותו ריק אלא אם תשנה את הסיסמה.</phrase>
+  <phrase section="Global" data="PASSWORD_T2">הסיסמה חייבת להיות באורך של לפחות 6 תווים.</phrase>
+  <phrase section="Global" data="PASTE">לְהַדבִּיק</phrase>
+  <phrase section="Global" data="PAYWITH">לשלם עם</phrase>
+  <phrase section="Global" data="PENDING">ממתין ל</phrase>
+  <phrase section="Global" data="PREVIEW">תצוגה מקדימה</phrase>
+  <phrase section="Global" data="PROCCESS_C_ERR">אירעה שגיאה במהלך עיבוד קובץ התצורה.</phrase>
+  <phrase section="Global" data="PROCCESS_ERR">אנא מלא את השדות הנדרשים הבאים:</phrase>
+  <phrase section="Global" data="PROCCESS_ERR1">אנא מלא את כל השדות הנדרשים.</phrase>
+  <phrase section="Global" data="PROP">נכסים</phrase>
+  <phrase section="Global" data="PRIVACY">מדיניות פרטיות</phrase>
+  <phrase section="Global" data="PUBLIC">פּוּמְבֵּי</phrase>
+  <phrase section="Global" data="PUBLISHED">יצא לאור</phrase>
+  <phrase section="Global" data="PURCHASES">רכישות</phrase>
+  <phrase section="Global" data="PURCHSE">לִרְכּוֹשׁ</phrase>
+  <phrase section="Global" data="QUANTITY">כַּמוּת</phrase>
+  <phrase section="Global" data="REFRESH">לְרַעֲנֵן</phrase>
+  <phrase section="Global" data="REGISTER">הירשם</phrase>
+  <phrase section="Global" data="REGISTERED">רשום</phrase>
+  <phrase section="Global" data="REMOVE">לְהַסִיר</phrase>
+  <phrase section="Global" data="RENAME">שנה שם</phrase>
+  <phrase section="Global" data="REQFIELD1">שדות מסומנים</phrase>
+  <phrase section="Global" data="REQFIELD2">נדרשים.</phrase>
+  <phrase section="Global" data="RESET">אִתחוּל</phrase>
+  <phrase section="Global" data="RESFRTR">שוחזר מהאשפה</phrase>
+  <phrase section="Global" data="RESTORE">לשחזר</phrase>
+  <phrase section="Global" data="REVIEW">סקירה</phrase>
+  <phrase section="Global" data="REVIEWS">חוות דעת של משתמשים</phrase>
+  <phrase section="Global" data="RFCOMPLETE">שחזר את המקור</phrase>
+  <phrase section="Global" data="SAVE">להציל</phrase>
+  <phrase section="Global" data="SEARCH">לחפש</phrase>
+  <phrase section="Global" data="SEARCH2">הקלד והקש אנטר...</phrase>
+  <phrase section="Global" data="SELECT">בחר</phrase>
+  <phrase section="Global" data="SELECTMULTI">בחר כמה אפשרויות</phrase>
+  <phrase section="Global" data="SEND">לִשְׁלוֹחַ</phrase>
+  <phrase section="Global" data="SHAREON">תשתף</phrase>
+  <phrase section="Global" data="SETTINGS">הגדרות</phrase>
+  <phrase section="Global" data="SORTING">מִיוּן</phrase>
+  <phrase section="Global" data="SORTING_O">אפשרויות מיון</phrase>
+  <phrase section="Global" data="STAFF">צוות</phrase>
+  <phrase section="Global" data="STATE">מדינה</phrase>
+  <phrase section="Global" data="STATUS">סטָטוּס</phrase>
+  <phrase section="Global" data="SUBMIT">שלח</phrase>
+  <phrase section="Global" data="SUBMITP">אשר תשלום</phrase>
+  <phrase section="Global" data="SUCCESS">הַצלָחָה</phrase>
+  <phrase section="Global" data="SUMMARY">סיכום רכישה</phrase>
+  <phrase section="Global" data="SYSERROR">אירעה שגיאה במהלך עיבוד בקשה זו. אנא צור קשר עם מנהל המערכת.</phrase>
+  <phrase section="Global" data="SYSTEM_ERR">אנא מלא את השדות הבאים:</phrase>
+  <phrase section="Global" data="SYSTEM_ERR1">שגיאת מערכת!! זוהה ערך לא חוקי -</phrase>
+  <phrase section="Global" data="SYSTEM_ERR2">אין לך הרשאה לגשת לדף זה.</phrase>
+  <phrase section="Global" data="SYSTEM_PROCCESS">אין מה לעבד.</phrase>
+  <phrase section="Global" data="TAG">תָג</phrase>
+  <phrase section="Global" data="TAGS">תגים</phrase>
+  <phrase section="Global" data="TAX">מס/מע"מ</phrase>
+  <phrase section="Global" data="TITLE">כותרת</phrase>
+  <phrase section="Global" data="TO">ל</phrase>
+  <phrase section="Global" data="TRANSACTION">עִסקָה</phrase>
+  <phrase section="Global" data="TRASH">אַשׁפָּה</phrase>
+  <phrase section="Global" data="TRASH_DEL_OK">כל הפריטים שנשלחו לאשפה נמחקו בהצלחה!</phrase>
+  <phrase section="Global" data="TYPE">סוּג</phrase>
+  <phrase section="Global" data="UPDATE">עדכון</phrase>
+  <phrase section="Global" data="UPDATED">עודכן בהצלחה!</phrase>
+  <phrase section="Global" data="UPLOAD">העלה</phrase>
+  <phrase section="Global" data="URL">כתובת אתר</phrase>
+  <phrase section="Global" data="USER">מִשׁתַמֵשׁ</phrase>
+  <phrase section="Global" data="USER_A">משתמש פעיל</phrase>
+  <phrase section="Global" data="USER_B">משתמש אסור</phrase>
+  <phrase section="Global" data="USER_I">משתמש לא פעיל</phrase>
+  <phrase section="Global" data="USER_P">משתמש בהמתנה</phrase>
+  <phrase section="Global" data="USERNAME">שם משתמש</phrase>
+  <phrase section="Global" data="USERNAME_R1">נא להזין שם משתמש חוקי</phrase>
+  <phrase section="Global" data="USERNAME_R2">שם המשתמש קצר מדי (אורך פחות מ-4 תווים).</phrase>
+  <phrase section="Global" data="USERNAME_R3">נמצאו תווים לא חוקיים בשם משתמש.</phrase>
+  <phrase section="Global" data="USERNAME_R4">סליחה, שם המשתמש הזה כבר תפוס.</phrase>
+  <phrase section="Global" data="USERNAME_R5">אנו מצטערים, שם המשתמש שנבחר אינו קיים במסד הנתונים שלנו.</phrase>
+  <phrase section="Global" data="VIEW">נוף</phrase>
+  <phrase section="Global" data="VIP">VIP</phrase>
+  <phrase section="Global" data="VISIT">לרכישה ומידע נוסף</phrase>
+  <phrase section="Global" data="WELCOME">ברוך הבא</phrase>
+  <phrase section="Global" data="WISHLIST">להוספה למועדפים</phrase>
+  <phrase section="Global" data="WORKING">עובד....</phrase>
+  <phrase section="Global" data="YES">כן</phrase>
+  <phrase section="Global" data="YOUAREHERE">אתה כאן</phrase>
+  <phrase section="Global" data="ZIP">מיקוד</phrase>
+  <phrase section="Global" data="OVER">על</phrase>
+  <phrase section="Global" data="Choices">בחירות</phrase>
+
+  <!-- Localization -->
+  <phrase section="Localization" data="_DAY">יְוֹם</phrase>
+  <phrase section="Localization" data="_DAYS">ימים</phrase>
+  <phrase section="Localization" data="_HOUR">שָׁעָה</phrase>
+  <phrase section="Localization" data="_HOURS">שעה (ות</phrase>
+  <phrase section="Localization" data="_MINUTE">דַקָה</phrase>
+  <phrase section="Localization" data="_MINUTES">דקות</phrase>
+  <phrase section="Localization" data="_MONTH">חוֹדֶשׁ</phrase>
+  <phrase section="Localization" data="_MONTHS">חודשים</phrase>
+  <phrase section="Localization" data="_SECOND">שְׁנִיָה</phrase>
+  <phrase section="Localization" data="_SECONDS">שניות</phrase>
+  <phrase section="Localization" data="_WEEK">שָׁבוּעַ</phrase>
+  <phrase section="Localization" data="_WEEKS">שבועות</phrase>
+  <phrase section="Localization" data="_YEAR">שָׁנָה</phrase>
+  <phrase section="Localization" data="_YEARS">שנים</phrase>
+  <phrase section="Localization" data="AGO">לִפנֵי</phrase>
+  <phrase section="Localization" data="APR">אפריל</phrase>
+  <phrase section="Localization" data="APR_L">אַפּרִיל</phrase>
+  <phrase section="Localization" data="AUG">אוגוסט</phrase>
+  <phrase section="Localization" data="AUG_L">אוגוסט</phrase>
+  <phrase section="Localization" data="DEC">דצמבר</phrase>
+  <phrase section="Localization" data="DEC_L">דֵצֶמבֶּר</phrase>
+  <phrase section="Localization" data="FEB">פברואר</phrase>
+  <phrase section="Localization" data="FEB_L">פברואר</phrase>
+  <phrase section="Localization" data="FRI">Fr</phrase>
+  <phrase section="Localization" data="FRI_L">יוֹם שִׁישִׁי</phrase>
+  <phrase section="Localization" data="FRI_M">שישי</phrase>
+  <phrase section="Localization" data="JAN">ינואר</phrase>
+  <phrase section="Localization" data="JAN_L">יָנוּאָר</phrase>
+  <phrase section="Localization" data="JUL">יולי</phrase>
+  <phrase section="Localization" data="JUL_L">יולי</phrase>
+  <phrase section="Localization" data="JUN">יוני</phrase>
+  <phrase section="Localization" data="JUN_L">יוני</phrase>
+  <phrase section="Localization" data="JUSTNOW">זֶה עַתָה</phrase>
+  <phrase section="Localization" data="LAST_MONTH">חודש שעבר</phrase>
+  <phrase section="Localization" data="LAST_WEEK">שבוע שעבר</phrase>
+  <phrase section="Localization" data="LAST_YEAR">שנה שעברה</phrase>
+  <phrase section="Localization" data="MAR">לְקַלְקֵל</phrase>
+  <phrase section="Localization" data="MAR_L">מרץ</phrase>
+  <phrase section="Localization" data="MAY">מאי</phrase>
+  <phrase section="Localization" data="MAY_L">מאי</phrase>
+  <phrase section="Localization" data="MON">מו</phrase>
+  <phrase section="Localization" data="MON_L">יוֹם שֵׁנִי</phrase>
+  <phrase section="Localization" data="MON_M">יום שני</phrase>
+  <phrase section="Localization" data="NEXT_MONTH">חודש הבא</phrase>
+  <phrase section="Localization" data="NEXT_WEEK">שבוע הבא</phrase>
+  <phrase section="Localization" data="NOV">נובמבר</phrase>
+  <phrase section="Localization" data="NOV_L">נוֹבֶמבֶּר</phrase>
+  <phrase section="Localization" data="OCT">אוקטובר</phrase>
+  <phrase section="Localization" data="OCT_L">אוֹקְטוֹבֶּר</phrase>
+  <phrase section="Localization" data="SAT">סא</phrase>
+  <phrase section="Localization" data="SAT_L">יום שבת</phrase>
+  <phrase section="Localization" data="SAT_M">ישב</phrase>
+  <phrase section="Localization" data="SEP">ספטמבר</phrase>
+  <phrase section="Localization" data="SEP_L">סֶפּטֶמבֶּר</phrase>
+  <phrase section="Localization" data="SUN">סו</phrase>
+  <phrase section="Localization" data="SUN_L">יוֹם רִאשׁוֹן</phrase>
+  <phrase section="Localization" data="SUN_M">שמש</phrase>
+  <phrase section="Localization" data="THIS_MONTH">החודש</phrase>
+  <phrase section="Localization" data="THIS_WEEK">השבוע</phrase>
+  <phrase section="Localization" data="THIS_YEAR">השנה</phrase>
+  <phrase section="Localization" data="THU">Th</phrase>
+  <phrase section="Localization" data="THU_L">יוֹם חֲמִישִׁי</phrase>
+  <phrase section="Localization" data="THU_M">יום ה'</phrase>
+  <phrase section="Localization" data="TNEX_YEAR">שנה הבאה</phrase>
+  <phrase section="Localization" data="TODAY">היום</phrase>
+  <phrase section="Localization" data="TOMORROW">מָחָר</phrase>
+  <phrase section="Localization" data="TUE">טו</phrase>
+  <phrase section="Localization" data="TUE_L">יוֹם שְׁלִישִׁי</phrase>
+  <phrase section="Localization" data="TUE_M">ג'</phrase>
+  <phrase section="Localization" data="WED">אָנוּ</phrase>
+  <phrase section="Localization" data="WED_L">יום רביעי</phrase>
+  <phrase section="Localization" data="WED_M">היינו עושים</phrase>
+  <phrase section="Localization" data="YESTERDAY">אתמול</phrase>
+  <!-- Admin Menus -->
+  <phrase section="Admin Menus" data="ADM_BACKUP">גיבוי</phrase>
+  <phrase section="Admin Menus" data="ADM_CATS">קטגוריות</phrase>
+  <phrase section="Admin Menus" data="ADM_CFIELDS">שדות מותאמים אישית</phrase>
+  <phrase section="Admin Menus" data="ADM_CHPASS">שנה סיסמא</phrase>
+  <phrase section="Admin Menus" data="ADM_CMNTS">הערות</phrase>
+  <phrase section="Admin Menus" data="ADM_CNTR">מדינות</phrase>
+  <phrase section="Admin Menus" data="ADM_CONFIG">תְצוּרָה</phrase>
+  <phrase section="Admin Menus" data="ADM_CONTENT">תוֹכֶן</phrase>
+  <phrase section="Admin Menus" data="ADM_COUPONS">קופונים</phrase>
+  <phrase section="Admin Menus" data="ADM_DASH">לוּחַ מַחווָנִים</phrase>
+  <phrase section="Admin Menus" data="ADM_EMTPL">תבניות אימייל</phrase>
+  <phrase section="Admin Menus" data="ADM_FAQ">שאלות נפוצות</phrase>
+  <phrase section="Admin Menus" data="ADM_FILES">קבצים</phrase>
+  <phrase section="Admin Menus" data="ADM_GATE">אפשרויות תשלום</phrase>
+  <phrase section="Admin Menus" data="ADM_LNGMNG">שפה</phrase>
+  <phrase section="Admin Menus" data="ADM_MEMS">חברות</phrase>
+  <phrase section="Admin Menus" data="ADM_MENUS">תפריטים</phrase>
+  <phrase section="Admin Menus" data="ADM_MTNC">תחזוקה</phrase>
+  <phrase section="Admin Menus" data="ADM_MYACC">החשבון שלי</phrase>
+  <phrase section="Admin Menus" data="ADM_NEWS">חֲדָשׁוֹת</phrase>
+  <phrase section="Admin Menus" data="ADM_NEWSL">ניוזלטר</phrase>
+  <phrase section="Admin Menus" data="ADM_PAGES">דפים</phrase>
+  <phrase section="Admin Menus" data="ADM_PERM">הרשאות משתמש</phrase>
+  <phrase section="Admin Menus" data="ADM_PERMS">הרשאות</phrase>
+  <phrase section="Admin Menus" data="ADM_PROD">מוצרים</phrase>
+  <phrase section="Admin Menus" data="ADM_STNG">הגדרות</phrase>
+  <phrase section="Admin Menus" data="ADM_SYSINFO">מידע מערכת</phrase>
+  <phrase section="Admin Menus" data="ADM_SYSTEM">מערכת</phrase>
+  <phrase section="Admin Menus" data="ADM_TRANS">עסקאות</phrase>
+  <phrase section="Admin Menus" data="ADM_TRASH">אַשׁפָּה</phrase>
+  <phrase section="Admin Menus" data="ADM_USERS">משתמשים</phrase>
+  <phrase section="Admin Menus" data="ADM_BLOG">בלוג</phrase>
+  <!-- File Upload -->
+  <phrase section="File Upload" data="FU_ERROR7">זוהתה תמונה לא חוקית.</phrase>
+  <phrase section="File Upload" data="FU_ERROR8">סיומת קובץ לא חוקית. הרחבות מותרות הן:</phrase>
+  <phrase section="File Upload" data="FU_ERROR9">סליחה אבל יש שגיאה בשרת שלנו. בבקשה נסה שוב מאוחר יותר.</phrase>
+  <phrase section="File Upload" data="FU_ERROR10">הקובץ גדול מדי. הגודל המרבי המותר הוא</phrase>
+  <phrase section="File Upload" data="FU_ERROR11">אירעה שגיאה בלתי צפויה, אנא נסה שוב מאוחר יותר</phrase>
+  <phrase section="File Upload" data="FU_ERROR12">סליחה אבל יש שגיאה בשרת שלנו. בבקשה נסה שוב מאוחר יותר.</phrase>
+  <phrase section="File Upload" data="FU_ERROR13">לא ניתן היה להעלות את הקובץ</phrase>
+  <phrase section="File Upload" data="FU_ERROR14">עליך לבחור לפחות קובץ אחד.</phrase>
+  <phrase section="File Upload" data="FU_ERROR15">זוהה קובץ לא חוקי.</phrase>
+  <!-- Admin Pages -->
+  <phrase section="Pages" data="PAG_ADDED_OK">הדף [NAME] נוסף בהצלחה.</phrase>
+  <phrase section="Pages" data="PAG_CONTACT">עמוד צור קשר</phrase>
+  <phrase section="Pages" data="PAG_CREATE">צור עמוד</phrase>
+  <phrase section="Pages" data="PAG_EDIT">ערוך עמוד</phrase>
+  <phrase section="Pages" data="PAG_EMPTY">עדיין אין לך דפי תוכן...</phrase>
+  <phrase section="Pages" data="PAG_FAQ">עמוד שאלות נפוצות</phrase>
+  <phrase section="Pages" data="PAG_HOME">דף הבית</phrase>
+  <phrase section="Pages" data="PAG_INFO">כאן תוכל לנהל את דפי התוכן שלך.</phrase>
+  <phrase section="Pages" data="PAG_NEW">עמוד חדש</phrase>
+  <phrase section="Pages" data="PAG_NORMAL">עמוד רגיל</phrase>
+  <phrase section="Pages" data="PAG_SLUG">עמוד שבלול</phrase>
+  <phrase section="Pages" data="PAG_TRASH_OK">הדף [NAME] הועבר לאשפה בהצלחה.</phrase>
+  <phrase section="Pages" data="PAG_RESTORE_OK">הדף [NAME] שוחזר בהצלחה.</phrase>
+  <phrase section="Pages" data="PAG_TYPE">סוג עמוד</phrase>
+  <phrase section="Pages" data="PAG_UPDATE">עדכון עמוד</phrase>
+  <phrase section="Pages" data="PAG_UPDATE_OK">הדף [NAME] עודכן בהצלחה.</phrase>
+  <!-- Countries -->
+  <phrase section="Countries" data="CNT_INFO">כאן תוכל להציג ולנהל את רשימת המדינות. לחץ על ערכי מע"מ/מס כדי לערוך במקום.</phrase>
+  <phrase section="Countries" data="CNT_ABBR">נוֹטָרִיקוֹן</phrase>
+  <phrase section="Countries" data="CNT_SELECT">בחר מדינה</phrase>
+  <phrase section="Countries" data="CNT_DEL_OK">המדינה [NAME] נמחקה בהצלחה.</phrase>
+  <phrase section="Countries" data="CNT_EDIT">ערוך מדינה</phrase>
+  <phrase section="Countries" data="PAG_EMPTY">עדיין אין לך מדינות...</phrase>
+  <phrase section="Countries" data="CNT_UPDATE">עדכן מדינה</phrase>
+  <phrase section="Countries" data="CNT_UPDATE_OK">המדינה [NAME] עודכנה בהצלחה.</phrase>
+  <!-- Admin Discounts -->
+  <phrase section="Discounts" data="DC_ADDED_OK">הקופון [NAME] נוסף בהצלחה.</phrase>
+  <phrase section="Discounts" data="DC_CODE">קוד קופון</phrase>
+  <phrase section="Discounts" data="DC_CODE_MIN">נדרש סכום משנה מינימלי של: [TOTAL].</phrase>
+  <phrase section="Discounts" data="DC_CODE_OK">הנחה של [AMOUNT] הוחל על העגלה שלך.</phrase>
+  <phrase section="Discounts" data="DC_CREATE">צור קופון</phrase>
+  <phrase section="Discounts" data="DC_DISC">הנחה</phrase>
+  <phrase section="Discounts" data="DC_DISC_A">כמות ההנחה</phrase>
+  <phrase section="Discounts" data="DC_DISC_T">סוג הנחה</phrase>
+  <phrase section="Discounts" data="DC_EDIT">ערוך קופון</phrase>
+  <phrase section="Discounts" data="DC_EMPTY">עדיין אין לך הנחות/קופונים. תוסיף בבקשה...</phrase>
+  <phrase section="Discounts" data="DC_INFO">כאן תוכל לנהל את ההנחות/קופונים שלך.</phrase>
+  <phrase section="Discounts" data="DC_INVALID">קוד קופון לא חוקי או שפג תוקפו.</phrase>
+  <phrase section="Discounts" data="DC_MIN">ערך מינימלי</phrase>
+  <phrase section="Discounts" data="DC_NEW">קופון חדש</phrase>
+  <phrase section="Discounts" data="DC_TRASH_OK">הקופון [NAME] הועבר לאשפה בהצלחה.</phrase>
+  <phrase section="Discounts" data="DC_RESTORE_OK">הקופון [NAME] שוחזר בהצלחה.</phrase>
+  <phrase section="Discounts" data="DC_TYPE">סוג קופון</phrase>
+  <phrase section="Discounts" data="DC_TYPE_A">סכום קבוע</phrase>
+  <phrase section="Discounts" data="DC_TYPE_P">כמות באחוזים</phrase>
+  <phrase section="Discounts" data="DC_UPDATE">עדכן קופון</phrase>
+  <phrase section="Discounts" data="DC_UPDATE_OK">הקופון [NAME] עודכן בהצלחה.</phrase>
+  <phrase section="Discounts" data="DC_VALID">בתוקף עד</phrase>
+  <!-- Admin Custom Fields -->
+  <phrase section="Custom Fields" data="CF_ADDED_OK">שדה מותאם אישית [NAME] נוסף בהצלחה.</phrase>
+  <phrase section="Custom Fields" data="CF_CREATE">צור שדה מותאם אישית</phrase>
+  <phrase section="Custom Fields" data="CF_DEL_OK">השדה המותאם אישית [NAME] נמחק בהצלחה.</phrase>
+  <phrase section="Custom Fields" data="CF_EDIT">ערוך שדה מותאם אישית</phrase>
+  <phrase section="Custom Fields" data="CF_EMPTY">עדיין אין לך שדות מותאמים אישית. תוסיף בבקשה...</phrase>
+  <phrase section="Custom Fields" data="CF_INFO">כדי לסדר מחדש שדות לחץ וגרור את ידית הסדר מחדש של פריט, מקם אותה במקום הרצוי לך. המיקום יעודכן אוטומטית.</phrase>
+  <phrase section="Custom Fields" data="CF_NEW">שדה חדש</phrase>
+  <phrase section="Custom Fields" data="CF_REQUIRED">שדה נדרש</phrase>
+  <phrase section="Custom Fields" data="CF_SEC_P">מוצר</phrase>
+  <phrase section="Custom Fields" data="CF_SEC_U">פרופיל משתמש</phrase>
+  <phrase section="Custom Fields" data="CF_SECTION">סָעִיף</phrase>
+  <phrase section="Custom Fields" data="CF_TIP">טיפים לכלי עבודה</phrase>
+  <phrase section="Custom Fields" data="CF_TITLE">שדות מותאמים אישית</phrase>
+  <phrase section="Custom Fields" data="CF_UPDATE">שדה עדכון</phrase>
+  <phrase section="Custom Fields" data="CF_UPDATE_OK">שדה מותאם אישית [NAME] עודכן בהצלחה.</phrase>
+  <!-- News Announcements -->
+  <phrase section="News" data="NW_ADDED_OK">חדשות [NAME] נוספו בהצלחה.</phrase>
+  <phrase section="News" data="NW_CREATE">צור הודעת חדשות</phrase>
+  <phrase section="News" data="NW_EDIT">ערוך הודעת חדשות</phrase>
+  <phrase section="News" data="NW_EMPTY">עדיין אין לך הודעות חדשות. תוסיף בבקשה...</phrase>
+  <phrase section="News" data="NW_INFO">כאן תוכל לנהל את הודעות החדשות שלך.</phrase>
+  <phrase section="News" data="NW_NEW">הודעה חדשה</phrase>
+  <phrase section="News" data="NW_TRASH_OK">חדשות [NAME] הועברו לאשפה בהצלחה.</phrase>
+  <phrase section="News" data="NW_RESTORE_OK">חדשות [NAME] שוחזרו בהצלחה.</phrase>
+  <phrase section="News" data="NW_UPDATE">חדשות עדכון</phrase>
+  <phrase section="News" data="NW_LATEST">הכרזות</phrase>
+  <phrase section="News" data="NW_UPDATE_OK">חדשות [NAME] עודכנו בהצלחה.</phrase>
+  <!-- News Menus -->
+  <phrase section="Menus" data="MU_ADDED_OK">התפריט [NAME] נוסף בהצלחה.</phrase>
+  <phrase section="Menus" data="MU_AVAIL">תפריטים זמינים</phrase>
+  <phrase section="Menus" data="MU_CREATE">צור תפריט חדש</phrase>
+  <phrase section="Menus" data="MU_EDIT">ערוך תפריט</phrase>
+  <phrase section="Menus" data="MU_EXT_URL">כתובת אתר חיצונית</phrase>
+  <phrase section="Menus" data="MU_INFO">כאן תוכל לנהל את התפריטים שלך.</phrase>
+  <phrase section="Menus" data="MU_INFO1">גרור ושחרר פריטים כדי לשנות את מיקומם.</phrase>
+  <phrase section="Menus" data="MU_NEW">תפריט חדש</phrase>
+  <phrase section="Menus" data="MU_PAGE">עמוד תוכן</phrase>
+  <phrase section="Menus" data="MU_TARGET">יַעַד</phrase>
+  <phrase section="Menus" data="MU_TARGET_B">_רֵיק</phrase>
+  <phrase section="Menus" data="MU_TARGET_L">יעד קישור</phrase>
+  <phrase section="Menus" data="MU_TARGET_S">_עצמי</phrase>
+  <phrase section="Menus" data="MU_TRASH_OK">התפריט [NAME] הועבר לאשפה בהצלחה.</phrase>
+  <phrase section="Menus" data="MU_RESTORE_OK">התפריט [NAME] שוחזר בהצלחה.</phrase>
+  <phrase section="Menus" data="MU_TYPE">סוג תוכן</phrase>
+  <phrase section="Menus" data="MU_UPDATE">עדכון תפריט</phrase>
+  <phrase section="Menus" data="MU_UPDATE_OK">התפריט [NAME] עודכן בהצלחה.</phrase>
+  <!-- Admin Categories -->
+  <phrase section="Categories" data="CT_ADDED_OK">הקטגוריה [NAME] נוספה בהצלחה.</phrase>
+  <phrase section="Categories" data="CT_CREATE">צור קטגוריה</phrase>
+  <phrase section="Categories" data="CT_EDIT">ערוך קטגוריה</phrase>
+  <phrase section="Categories" data="CT_INFO">כאן תוכל לנהל את הקטגוריות שלך.</phrase>
+  <phrase section="Categories" data="CT_NEW">קטגוריה חדשה</phrase>
+  <phrase section="Categories" data="CT_PARENT">הורה בקטגוריה</phrase>
+  <phrase section="Categories" data="CT_SLUG">קטגוריה Slug</phrase>
+  <phrase section="Categories" data="CT_TOP">הרמה העליונה</phrase>
+  <phrase section="Categories" data="CT_TRASH_OK">הקטגוריה [NAME] הועברה לאשפה בהצלחה.</phrase>
+  <phrase section="Categories" data="CT_RESTORE_OK">הקטגוריה [NAME] שוחזרה בהצלחה.</phrase>
+  <phrase section="Categories" data="CT_UPDATE">עדכן קטגוריה</phrase>
+  <phrase section="Categories" data="CT_UPDATE_OK">הקטגוריה [NAME] עודכנה בהצלחה.</phrase>
+  <!-- Admin Newsletter -->
+  <phrase section="Newsletter" data="NL_FROM">אי מייל מ</phrase>
+  <phrase section="Newsletter" data="NL_RCPT">נמענים</phrase>
+  <phrase section="Newsletter" data="NL_INFO">כאן תוכלו לשלוח ניוזלטר לכל המשתמשים או למנויי ניוזלטר.</phrase>
+  <phrase section="Newsletter" data="NL_SUBJECT">נושא האימייל</phrase>
+  <phrase section="Newsletter" data="NL_ATTACH">הִתקַשְׁרוּת</phrase>
+  <phrase section="Newsletter" data="NL_TTITLE">ניוזלטר מערכת</phrase>
+  <phrase section="Newsletter" data="NL_BODY">תוכן בדוא"ל</phrase>
+  <phrase section="Newsletter" data="NL_SEND">שלח אימייל</phrase>
+  <phrase section="Newsletter" data="NL_ALL">כל המשתמשים</phrase>
+  <phrase section="Newsletter" data="NL_REG">חברים רשומים</phrase>
+  <phrase section="Newsletter" data="NL_MEM">מנויי חברות</phrase>
+  <phrase section="Newsletter" data="NL_NWSL">מנויי ניוזלטר</phrase>
+  <phrase section="Newsletter" data="NL_SENT">כל האימיילים נשלחו בהצלחה!</phrase>
+  <phrase section="Newsletter" data="NL_ALERT">לא ניתן היה להשיג חלק מהמיילים!</phrase>
+  <!-- Admin Permissions -->
+  <phrase section="Permissions" data="PS_INFO">כאן תוכל לנהל את התפקידים וההרשאות של חברי צוות האתר שלך.</phrase>
+  <phrase section="Permissions" data="PS_LABEL">ערוך תיאור תפקיד</phrase>
+  <phrase section="Permissions" data="PS_UPDATE_OK">תיאור התפקיד עודכן בהצלחה.</phrase>
+  <phrase section="Permissions" data="PS_INFO2">לחץ על תווית גישה כדי להעניק/לשלול אפשרויות גישה.</phrase>
+  <phrase section="Permissions" data="PS_INFO1">כאן תוכל להציג ולנהל הרשאות עבור תפקיד [ROLE] שנבחר כעת.</phrase>
+  <!-- Admin Languages -->
+  <phrase section="Language" data="LMG_INFO">כאן תוכל לעדכן את ביטויי השפה שלך. הערה: אל תחליף משתנים בין [ ]. לחץ על שם ערך כדי לערוך.</phrase>
+  <phrase section="Language" data="LMG_KEY">מַפְתֵחַ</phrase>
+  <phrase section="Language" data="LMG_RESET">אפס מסנן קבוצת שפה</phrase>
+  <phrase section="Language" data="LMG_PHASE">מדור ביטויים</phrase>
+  <phrase section="Language" data="LMG_VALUE">ערך</phrase>
+  <!-- Email Templates -->
+  <phrase section="Email Templates" data="ET_BACKUP">צור גיבוי</phrase>
+  <phrase section="Email Templates" data="ET_EDIT">ערוך תבנית דוא"ל</phrase>
+  <phrase section="Email Templates" data="ET_ERROR">שגיאה בטעינת קובץ התבנית</phrase>
+  <phrase section="Email Templates" data="ET_ERROR2">התבנית שנבחרה לא קיימת.</phrase>
+  <phrase section="Email Templates" data="ET_EMPTY">נראה שחסרות תבניות האימייל שלך. נא להתקין מחדש.</phrase>
+  <phrase section="Email Templates" data="ET_NAME">שם התבנית</phrase>
+  <phrase section="Email Templates" data="ET_INFO">כאן תוכלו לעצב/לעדכן תבניות דואר קיימות.</phrase>
+  <phrase section="Email Templates" data="ET_SUBJECT">נושא</phrase>
+  <phrase section="Email Templates" data="ET_UPDATE">עדכון תבנית</phrase>
+  <phrase section="Email Templates" data="ET_UPDATE_OK">התבנית [NAME] עודכנה בהצלחה.</phrase>
+  <!-- System Info -->
+  <phrase section="System Info" data="SYS_ADMVIEW">תצוגת מנהל מערכת</phrase>
+  <phrase section="System Info" data="SYS_CMS_INF">מידע על CMS</phrase>
+  <phrase section="System Info" data="SYS_CMS_VER">גרסת CMS</phrase>
+  <phrase section="System Info" data="SYS_DBOPTIMIZED">אופטימיזציה</phrase>
+  <phrase section="System Info" data="SYS_DBOPTIMIZING">אופטימיזציה</phrase>
+  <phrase section="System Info" data="SYS_DBREPAIRED">מְתוּקָן</phrase>
+  <phrase section="System Info" data="SYS_DBREPAIRING">תיקון</phrase>
+  <phrase section="System Info" data="SYS_DBSTATUS">סטָטוּס</phrase>
+  <phrase section="System Info" data="SYS_DBTABLE">שולחן</phrase>
+  <phrase section="System Info" data="SYS_DBTABLE_INF">טבלאות מסד נתונים</phrase>
+  <phrase section="System Info" data="SYS_DBV">גרסת מסד הנתונים של השרת</phrase>
+  <phrase section="System Info" data="SYS_DEF_LANG">שפת ברירת מחדל</phrase>
+  <phrase section="System Info" data="SYS_GD_VER">גרסת GD</phrase>
+  <phrase section="System Info" data="SYS_INFO">המידע המוצג להלן נאסף ממגוון מיקומים, ומתמצה כאן כך שאולי תוכל למצוא בנוחות חלק מהמידע הנדרש בעת ניסיון לאבחן בעיה או לבקש עזרה בהתקנת DDP v.[VER] שלך.</phrase>
+  <phrase section="System Info" data="SYS_LOG_ERR">שגיאות יומן</phrase>
+  <phrase section="System Info" data="SYS_MEM_LIM">מגבלת זיכרון</phrase>
+  <phrase section="System Info" data="SYS_MEMALO">מקסימום זיכרון מוקצה</phrase>
+  <phrase section="System Info" data="SYS_MQR">ציטוטים קסומים בזמן ריצה</phrase>
+  <phrase section="System Info" data="SYS_PHP_INF">מידע PHP</phrase>
+  <phrase section="System Info" data="SYS_PHP_INFO">מידע PHP</phrase>
+  <phrase section="System Info" data="SYS_PHP_VER">גרסת PHP נוכחית</phrase>
+  <phrase section="System Info" data="SYS_PMF">פוסט מקסימום. גודל הקובץ</phrase>
+  <phrase section="System Info" data="SYS_RG">הרשמה גלובלים</phrase>
+  <phrase section="System Info" data="SYS_ROOT_PATH">נתיב שורש</phrase>
+  <phrase section="System Info" data="SYS_ROOT_URL">כתובת שורש</phrase>
+  <phrase section="System Info" data="SYS_SER_API">API של שרת</phrase>
+  <phrase section="System Info" data="SYS_SER_DB">מסד נתונים של שרתים</phrase>
+  <phrase section="System Info" data="SYS_SER_INF">מידע על השרת</phrase>
+  <phrase section="System Info" data="SYS_SER_MR">שכתוב אפאצ'י מוד</phrase>
+  <phrase section="System Info" data="SYS_SER_OS">מערכת הפעלה של שרת</phrase>
+  <phrase section="System Info" data="SYS_SERVER_INFO">מידע שרת</phrase>
+  <phrase section="System Info" data="SYS_SM">מצב בטוח</phrase>
+  <phrase section="System Info" data="SYS_SSP">נתיב שמירת הפעלה</phrase>
+  <phrase section="System Info" data="SYS_STS">שטח כולל של שרת</phrase>
+  <phrase section="System Info" data="SYS_UMF">העלאה מקסימום גודל הקובץ</phrase>
+  <phrase section="System Info" data="SYS_UPL_PATH">נתיב העלאות</phrase>
+  <phrase section="System Info" data="SYS_UPL_URL">כתובת אתר להעלאות</phrase>
+  <!-- Gateway -->
+  <phrase section="Gateway" data="GW_EDIT">ערוך שער</phrase>
+  <phrase section="Gateway" data="GW_IPNURL">כתובת IPN</phrase>
+  <phrase section="Gateway" data="GW_LIVE">הגדר מצב חי</phrase>
+  <phrase section="Gateway" data="GW_NAME">שם שער</phrase>
+  <phrase section="Gateway" data="GW_INFO">כאן תוכל לנהל את רשימת השערים הזמינים שלך.</phrase>
+  <phrase section="Gateway" data="GW_EDIT">ערוך אפשרות תשלום</phrase>
+  <phrase section="Gateway" data="GW_UPDATE">עדכן שער</phrase>
+  <phrase section="Gateway" data="GW_UPDATE_OK">שער [NAME] עודכן בהצלחה</phrase>
+  <!-- Admin FAQ -->
+  <phrase section="Faq" data="FAQ_ADDED_OK">שאלות נפוצות [NAME] נוסף בהצלחה</phrase>
+  <phrase section="Faq" data="FAQ_ANSWER">תשובה</phrase>
+  <phrase section="Faq" data="FAQ_CREATE">צור שאלות נפוצות חדשות</phrase>
+  <phrase section="Faq" data="FAQ_EDIT">ערוך שאלות נפוצות</phrase>
+  <phrase section="Faq" data="FAQ_EMPTY">עדיין אין לך שאלות נפוצות על תוכן...</phrase>
+  <phrase section="Faq" data="FAQ_INFO">כאן תוכל לנהל את השאלות הנפוצות שלך לאחר שתסיים תוכל להקצות את כל השאלות והתשובות שלך בדף תוכן ייעודי. כדי לסדר מחדש את הפריטים, לחץ וגרור אותם, מקם אותם היכן שאתה רוצה.</phrase>
+  <phrase section="Faq" data="FAQ_NEW">שאלות נפוצות חדשות</phrase>
+  <phrase section="Faq" data="FAQ_POPULAR">השאלות הפופולריות ביותר</phrase>
+  <phrase section="Faq" data="FAQ_QUESTION">שְׁאֵלָה</phrase>
+  <phrase section="Faq" data="FAQ_TRASH_OK">שאלות נפוצות [NAME] הועבר לאשפה בהצלחה.</phrase>
+  <phrase section="Faq" data="FAQ_RESTORE_OK">שאלות נפוצות [NAME] שוחזרו בהצלחה.</phrase>
+  <phrase section="Faq" data="FAQ_UPDATE">עדכון שאלות נפוצות</phrase>
+  <phrase section="Faq" data="FAQ_UPDATE_OK">שאלות נפוצות [NAME] עודכנו בהצלחה.</phrase>
+  <!-- Pagination -->
+  <phrase section="Pagination" data="CURPAGE">העמוד הנוכחי</phrase>
+  <phrase section="Pagination" data="TOTAL">סך הכל</phrase>
+  <phrase section="Pagination" data="GOTO">לך ל</phrase>
+  <phrase section="Pagination" data="IPP">פריטים לכל עמוד</phrase>
+  <phrase section="Pagination" data="NEXT">הַבָּא</phrase>
+  <phrase section="Pagination" data="OF">שֶׁל</phrase>
+  <phrase section="Pagination" data="PREV">הקודם</phrase>
+  <!-- Users -->
+  <phrase section="Users" data="USR_ACCNEW">תיצור את המשתמש שלך</phrase>
+  <phrase section="Users" data="USR_ADDED_OK">המשתמש [NAME] נוסף בהצלחה</phrase>
+  <phrase section="Users" data="USR_ADDRESS">פרטי כתובת</phrase>
+  <phrase section="Users" data="USR_CREATE">צור משתמש חדש</phrase>
+  <phrase section="Users" data="USR_EDIT">ערוך משתמש</phrase>
+  <phrase section="Users" data="USR_EMPTY">עדיין אין לך משתמשים. תוסיף בבקשה...</phrase>
+  <phrase section="Users" data="USR_EXTEND">הארכת חברות</phrase>
+  <phrase section="Users" data="USR_HASACCOUNT">יש כבר חשבון</phrase>
+  <phrase section="Users" data="USR_MEMBERSHIP">שנה חברות</phrase>
+  <phrase section="Users" data="USR_NEW">משתמש חדש</phrase>
+  <phrase section="Users" data="USR_NLETTER">מנוי לניוזלטר</phrase>
+  <phrase section="Users" data="USR_NOACC">אין לך עדיין חשבון</phrase>
+  <phrase section="Users" data="USR_NOTE">הערת משתמש</phrase>
+  <phrase section="Users" data="USR_NOTIFY">שלח הודעת אימייל</phrase>
+  <phrase section="Users" data="USR_PASSUPDATE">עדכן סיסמה</phrase>
+  <phrase section="Users" data="USR_PASSUPDATE_OK">הסיסמא עודכנה בהצלחה.</phrase>
+  <phrase section="Users" data="USR_PASSUPDATE_OK2">הסיסמא עודכנה בהצלחה. אתה יכול להתחבר עכשיו!</phrase>
+  <phrase section="Users" data="USR_REGCOMP">הרשמה מלאה</phrase>
+  <phrase section="Users" data="USR_RESEND">שלח אימייל מחדש</phrase>
+  <phrase section="Users" data="USR_TRASH_OK">המשתמש [NAME] הועבר לאשפה בהצלחה.</phrase>
+  <phrase section="Users" data="USR_RESTORE_OK">המשתמש [NAME] שוחזר בהצלחה.</phrase>
+  <phrase section="Users" data="USR_TYPE">סוג משתמש</phrase>
+  <phrase section="Users" data="USR_UPDATE">עדכן משתמש</phrase>
+  <phrase section="Users" data="USR_UPDATE_A">לעדכן חשבון</phrase>
+  <phrase section="Users" data="USR_UPDATE_OK">המשתמש [NAME] עודכן בהצלחה.</phrase>
+  <phrase section="Users" data="USR_UPDATED_A">החשבון [NAME] עודכן בהצלחה.</phrase>
+  <!-- Accounts -->
+  <phrase section="Accounts" data="MSG_INFO01">השלמת בהצלחה את הרישום. אנא בדוק את האימייל שלך כדי לאמת את חשבונך.</phrase>
+  <phrase section="Accounts" data="MSG_INFO02">השלמת בהצלחה את הרישום. מפנה לדף הכניסה.</phrase>
+  <phrase section="Accounts" data="MSG_INFO03">אימתת בהצלחה את הדוא"ל שלך.</phrase>
+  <phrase section="Accounts" data="MSG_INFO04">המשך להתחבר...</phrase>
+  <phrase section="Accounts" data="MSG_INFO05">זוהו אימייל ו/או אסימון לא חוקיים.</phrase>
+  <phrase section="Accounts" data="MSG_INFO06">הייתה בעיה ביצירת החשבון שלך. אנא צור קשר עם מנהל האתר.</phrase>
+  <phrase section="Accounts" data="MSG_INFO07">זוהו אימייל ו/או אסימון לא חוקיים.</phrase>
+  <phrase section="Accounts" data="MSG_INFO08">אימתת בהצלחה את הדוא"ל שלך.</phrase>
+  <phrase section="Accounts" data="MSG_INFO08_1">המשך להתחבר...</phrase>
+  <phrase section="Accounts" data="MSG_INFO09">הפעלת בהצלחה את [NAME].</phrase>
+  <!-- Transactions -->
+  <phrase section="Transactions" data="TRX_AMOUNT">כמות</phrase>
+  <phrase section="Transactions" data="TRX_AVERAGE">מכירה ממוצעת</phrase>
+  <phrase section="Transactions" data="TRX_COUPON">קוּפּוֹן</phrase>
+  <phrase section="Transactions" data="TRX_GRTOTAL">סכום סופי</phrase>
+  <phrase section="Transactions" data="TRX_PAY">תשלומים</phrase>
+  <phrase section="Transactions" data="TRX_POPMEM">מכירות לפי חברות</phrase>
+  <phrase section="Transactions" data="TRX_PP">מעבד</phrase>
+  <phrase section="Transactions" data="TRX_SALES">מכירות</phrase>
+  <phrase section="Transactions" data="TRX_SUBTOTAL">סכום משנה</phrase>
+  <phrase section="Transactions" data="TRX_TAX">מס/מע"מ</phrase>
+  <phrase section="Transactions" data="TRX_TOTAMT">סכום סופי</phrase>
+  <phrase section="Transactions" data="TRX_CREATE">צור עסקה</phrase>
+  <phrase section="Transactions" data="TRX_NEW">עסקה חדשה</phrase>
+  <phrase section="Transactions" data="TRX_MEMO">תַזכִּיר</phrase>
+  <phrase section="Transactions" data="TRX_ADDED_OK">העסקה נוספה בהצלחה</phrase>
+  <!-- Admin Products -->
+  <phrase section="Products" data="PRD_ADDED_OK">המוצר [NAME] נוסף בהצלחה.</phrase>
+  <phrase section="Products" data="PRD_AFFILIATE">שותף</phrase>
+  <phrase section="Products" data="PRD_AFFURL">כתובת אתר שותף</phrase>
+  <phrase section="Products" data="PRD_AUDIO">אודיו למוצר</phrase>
+  <phrase section="Products" data="PRD_BODY">תוֹכֶן</phrase>
+  <phrase section="Products" data="PRD_CAT_ERROR">אנא בחר לפחות קטגוריה אחת.</phrase>
+  <phrase section="Products" data="PRD_CDKEY">מפתח דיסק</phrase>
+  <phrase section="Products" data="PRD_CDKEYS">מפתחות CD</phrase>
+  <phrase section="Products" data="PRD_CREATE">צור מוצר חדש</phrase>
+  <phrase section="Products" data="PRD_DEFAULT">בְּרִירַת מֶחדָל</phrase>
+  <phrase section="Products" data="PRD_DOWNFREE">חינם</phrase>
+  <phrase section="Products" data="PRD_DOWNLOAD">הורד פריט</phrase>
+  <phrase section="Products" data="PRD_EDIT">ערוך מוצר</phrase>
+  <phrase section="Products" data="PRD_EMPTY">עדיין אין לך מוצרים. תוסיף בבקשה...</phrase>
+  <phrase section="Products" data="PRD_EXP_DAYS">ימים</phrase>
+  <phrase section="Products" data="PRD_EXP_DOWN">הורדות</phrase>
+  <phrase section="Products" data="PRD_EXPIRY">תְפוּגָה</phrase>
+  <phrase section="Products" data="PRD_FILE_ERROR">אנא בחר קובץ אחד לפחות.</phrase>
+  <phrase section="Products" data="PRD_IMG">תמונה ראשית</phrase>
+  <phrase section="Products" data="PRD_IMG">תמונת המוצר</phrase>
+  <phrase section="Products" data="PRD_LOGIN_TO">התחבר להורדה</phrase>
+  <phrase section="Products" data="PRD_MEMREQ">גישה לחברות</phrase>
+  <phrase section="Products" data="PRD_MLEVEL">גישה לחברות</phrase>
+  <phrase section="Products" data="PRD_NEW">מוצר חדש</phrase>
+  <phrase section="Products" data="PRD_PBODY">תוכן מוגן</phrase>
+  <phrase section="Products" data="PRD_PRICE">מחיר</phrase>
+  <phrase section="Products" data="PRD_PRODUCT">מוצר</phrase>
+  <phrase section="Products" data="PRD_SLUG">מוצר שבלול</phrase>
+  <phrase section="Products" data="PRD_SPRICE">מחיר מבצע</phrase>
+  <phrase section="Products" data="PRD_TAGS">תגיות מוצר</phrase>
+  <phrase section="Products" data="PRD_TRASH_OK">המוצר [NAME] הועבר לאשפה בהצלחה.</phrase>
+  <phrase section="Products" data="PRD_TYPE">סוג המוצר</phrase>
+  <phrase section="Products" data="PRD_UPDATE">עדכן את המוצר</phrase>
+  <phrase section="Products" data="PRD_UPDATE_OK">המוצר [NAME] עודכן בהצלחה.</phrase>
+  <phrase section="Products" data="PRD_YTUBE">כתובת אתר של YouTube</phrase>
+  <phrase section="Products" data="PRD_MULTI">בחירה מרובה</phrase>
+  <phrase section="Products" data="PRD_VPRICE">מחיר רב בחירה</phrase>
+  <phrase section="Products" data="PRD_VNAME">שם רב ברירה</phrase>
+  <phrase section="Products" data="PRD_CHOOSE">בחר אפשרות</phrase>
+  <!-- File Manager -->
+  <phrase section="File Manager" data="FM_INFO">ודא שאתה לא מוחק קבצים שהוקצו למוצר פעיל!!! גודל ההעלאה המקסימלי שלך הוא [LIMIT]. אם אתה צריך להעלות קבצים גדולים מהמגבלה שלך בקש מחברת האחסון שלך להגדיל את זה.</phrase>
+  <phrase section="File Manager" data="FM_ALIAS">כינוי</phrase>
+  <phrase section="File Manager" data="FM_ALL_F">הכל</phrase>
+  <phrase section="File Manager" data="FM_AMG_F">תמונות</phrase>
+  <phrase section="File Manager" data="FM_ARC_F">ארכיון</phrase>
+  <phrase section="File Manager" data="FM_AUD_F">שֶׁמַע</phrase>
+  <phrase section="File Manager" data="FM_BUY">קנה שוב</phrase>
+  <phrase section="File Manager" data="FM_DELETE_OK">הקובץ [NAME] נמחק בהצלחה.</phrase>
+  <phrase section="File Manager" data="FM_DIR">מַדרִיך</phrase>
+  <phrase section="File Manager" data="FM_DIRS">מדריכים</phrase>
+  <phrase section="File Manager" data="FM_DISPLAY">לְהַצִיג</phrase>
+  <phrase section="File Manager" data="FM_DOC_F">מסמכים</phrase>
+  <phrase section="File Manager" data="FM_ERROR">אופס! הקובץ לא נמצא.</phrase>
+  <phrase section="File Manager" data="FM_ERROR1">פג תוקפו של פריט זה והוא אינו זמין יותר.</phrase>
+  <phrase section="File Manager" data="FM_ERROR10">החשבון שלך נאסר, אינך מוזמן לכאן. ה-IP שלך: [IP] תועד, והמנהל קיבל הודעה.</phrase>
+  <phrase section="File Manager" data="FM_ERROR11">אתה צריך גישת VIP חוקית כדי להוריד את הקובץ הזה..</phrase>
+  <phrase section="File Manager" data="FM_ERROR2">נותרו [DAYS] ימים.</phrase>
+  <phrase section="File Manager" data="FM_ERROR3">נותרו הורדות [DOWNS].</phrase>
+  <phrase section="File Manager" data="FM_ERROR4">הורדות ללא הגבלה</phrase>
+  <phrase section="File Manager" data="FM_ERROR5">הקובץ אינו קיים. ודא שציינת שם קובץ נכון.</phrase>
+  <phrase section="File Manager" data="FM_ERROR6">יפוג לאחר</phrase>
+  <phrase section="File Manager" data="FM_ERROR7">לא ניתן למצוא את קובץ המוצר שביקשת. אנא בדוק את האיות של כתובת האתר, או חזור לחשבונך ונסה שוב.</phrase>
+  <phrase section="File Manager" data="FM_ERROR8">פג תוקפו של פריט זה והוא אינו זמין יותר.</phrase>
+  <phrase section="File Manager" data="FM_ERROR9">עליך להיות רשום והתחבר כדי להוריד קובץ בחינם.</phrase>
+  <phrase section="File Manager" data="FM_FILE">קוֹבֶץ</phrase>
+  <phrase section="File Manager" data="FM_FILES">קבצים</phrase>
+  <phrase section="File Manager" data="FM_FSIZE">גודל</phrase>
+  <phrase section="File Manager" data="FM_LASTM">שונה לאחרונה</phrase>
+  <phrase section="File Manager" data="FM_NEWFLD">תיקייה חדשה</phrase>
+  <phrase section="File Manager" data="FM_NEWFLD_S1">צור תיקייה חדשה</phrase>
+  <phrase section="File Manager" data="FM_NEWFLD_S2">שם התיקיה</phrase>
+  <phrase section="File Manager" data="FM_NOFILES">עדיין אין לך קבצים. נא להעלות.</phrase>
+  <phrase section="File Manager" data="FM_REN_OK">שם הקובץ [NAME] שונה בהצלחה.</phrase>
+  <phrase section="File Manager" data="FM_RENAME">שנה את שם הקובץ</phrase>
+  <phrase section="File Manager" data="FM_SORT">סוג</phrase>
+  <phrase section="File Manager" data="FM_SPACE">מֶרחָב</phrase>
+  <phrase section="File Manager" data="FM_UNZIP">לִפְתוֹחַ</phrase>
+  <phrase section="File Manager" data="FM_VID_F">וִידֵאוֹ</phrase>
+  <!-- Database -->
+  <phrase section="Database" data="DBM_BKP_ERR">אירעה שגיאה ביצירת גיבוי.</phrase>
+  <phrase section="Database" data="DBM_BKP_OK">הגיבוי נוצר בהצלחה!</phrase>
+  <phrase section="Database" data="DBM_DEL">מחק את גיבוי מסד הנתונים</phrase>
+  <phrase section="Database" data="DBM_DELETE_OK">הגיבוי [NAME] נמחק בהצלחה!</phrase>
+  <phrase section="Database" data="DBM_INFO">ודא שבסיס הנתונים שלך מגובה בתדירות גבוהה. לחץ על צור גיבוי כדי לגבות באופן ידני את מסד הנתונים שלך. הגיבויים מאוחסנים בתיקייה [/uploads/backups/] וניתן להורידם מהרשימה למטה. הגיבוי האחרון שלך מודגש. ודא שאתה מוריד את הגיבוי האחרון שלך, ומחק את השאר.</phrase>
+  <phrase section="Database" data="DBM_NEW">צור גיבוי</phrase>
+  <phrase section="Database" data="DBM_RES">שחזר מסד נתונים</phrase>
+  <phrase section="Database" data="DBM_RES_OK">מסד הנתונים [NAME] שוחזר בהצלחה!</phrase>
+  <phrase section="Database" data="DBM_RES_T">האם אתה בטוח שברצונך לשחזר את מסד הנתונים?</phrase>
+  <!-- Admin Maintenance -->
+  <phrase section="Maintenance" data="MT_BUBTN">מחק חסום</phrase>
+  <phrase section="Maintenance" data="MT_BUSERS">מחק משתמשים אסורים</phrase>
+  <phrase section="Maintenance" data="MT_BUSERS_T">פעולה זו תמחק את כל [TOTAL] המשתמשים החסומים.</phrase>
+  <phrase section="Maintenance" data="MT_CART">נתוני עגלה ריקה</phrase>
+  <phrase section="Maintenance" data="MT_CART_T">נתוני העגלה הריקה, המשמשים לאחסון פרטי משתמש זמניים.</phrase>
+  <phrase section="Maintenance" data="MT_CRBTN">עגלה ריקה</phrase>
+  <phrase section="Maintenance" data="MT_DELBND_OK">כל המשתמשים החסומים של [NAME] נמחקו בהצלחה.</phrase>
+  <phrase section="Maintenance" data="MT_DELCRT_OK">סך הרשומות [NAME] נמחקו בהצלחה.</phrase>
+  <phrase section="Maintenance" data="MT_DELINCT_OK">סך כל המשתמשים הלא פעילים של [NAME] נמחקו בהצלחה.</phrase>
+  <phrase section="Maintenance" data="MT_GENERATE">לִיצוֹר</phrase>
+  <phrase section="Maintenance" data="MT_INFO">כאן תוכלו לבצע תחזוקה של האתר, כמו מחיקת משתמשים לא פעילים וחסומים. היזהר במה שאתה עושה, לא ניתן לבטל את הפעולות הללו.</phrase>
+  <phrase section="Maintenance" data="MT_IUBTN">מחק לא פעיל</phrase>
+  <phrase section="Maintenance" data="MT_IUSERS">מחק משתמשים לא פעילים</phrase>
+  <phrase section="Maintenance" data="MT_IUSERS_T">פעולה זו תמחק את כל המשתמשים (לא מנהלי מערכת), שלא התחברו לאתר תוך פרק זמן מסוים. זה לא ימחק משתמשים ממתינים לתהליך אימות. ציין את מספר הימים הלא פעילים מלמעלה.</phrase>
+  <phrase section="Maintenance" data="MT_MAP">צור מפת אתר</phrase>
+  <phrase section="Maintenance" data="MT_MAP_">צור קובץ XML של מפת אתר שתוכל לשלוח למנוע החיפוש. הקובץ יאוחסן בספריית השורש של DDP בשם sitemap.xml</phrase>
+  <phrase section="Maintenance" data="MT_MAP_ERROR">אירעה שגיאה ביצירת [NAME].</phrase>
+  <phrase section="Maintenance" data="MT_MAP_OK">מפת האתר [NAME] נוצרה בהצלחה.</phrase>
+  <!-- Memberships -->
+  <phrase section="Memberships" data="MEM_ACT">מוּפעָל</phrase>
+  <phrase section="Memberships" data="MEM_ADDED_OK">החברות [NAME] נוספה בהצלחה.</phrase>
+  <phrase section="Memberships" data="MEM_CREATE">צור חברות חדשה</phrase>
+  <phrase section="Memberships" data="MEM_CREATE">צור חברות חדשה</phrase>
+  <phrase section="Memberships" data="MEM_DAYS">תקופת החברות</phrase>
+  <phrase section="Memberships" data="MEM_EDIT">ערוך חברות</phrase>
+  <phrase section="Memberships" data="MEM_EMPTY">עדיין אין לך חברות. תוסיף בבקשה...</phrase>
+  <phrase section="Memberships" data="MEM_EXP">לָפוּג</phrase>
+  <phrase section="Memberships" data="MEM_INFO">כאן תוכל לנהל את חבילות החברות שלך. הערה: ודא שאינך מוחק או מבטל חבילות שהוקצו למשתמשים פעילים.</phrase>
+  <phrase section="Memberships" data="MEM_NAME">שם חברות</phrase>
+  <phrase section="Memberships" data="MEM_NEW">חברות חדשה</phrase>
+  <phrase section="Memberships" data="MEM_PRICE">מחיר חברות</phrase>
+  <phrase section="Memberships" data="MEM_PRIVATE">חברות פרטית</phrase>
+  <phrase section="Memberships" data="MEM_REC">תשלום חוזר</phrase>
+  <phrase section="Memberships" data="MEM_REC1">מַחזוֹרִי</phrase>
+  <phrase section="Memberships" data="MEM_TRASH_OK">החברות [NAME] נשלחה לאשפה בהצלחה.</phrase>
+  <phrase section="Memberships" data="MEM_RESTORE_OK">החברות [NAME] שוחזרה בהצלחה.</phrase>
+  <phrase section="Memberships" data="MEM_TRIAL">חברות ניסיון</phrase>
+  <phrase section="Memberships" data="MEM_UPDATE">עדכון חברות</phrase>
+  <phrase section="Memberships" data="MEM_UPDATE_OK">החברות [NAME] עודכנה בהצלחה.</phrase>
+  <phrase section="Memberships" data="MEM_VALID">בתוקף עד</phrase>
+  <!-- Comments -->
+  <phrase section="Comments" data="CMT_AUTOA">אישור אוטומטי</phrase>
+  <phrase section="Comments" data="CMT_BLACK">מילים ברשימה השחורה</phrase>
+  <phrase section="Comments" data="CMT_CHARS">מגבלת אופי</phrase>
+  <phrase section="Comments" data="CMT_CPP">הערות לכל עמוד</phrase>
+  <phrase section="Comments" data="CMT_DATEFORMAT">פורמט תאריך</phrase>
+  <phrase section="Comments" data="CMT_DEL_OK">מזהה תגובה: [מזהה] נמחק בהצלחה.</phrase>
+  <phrase section="Comments" data="CMT_EMAILREQ">מייל (דרוש</phrase>
+  <phrase section="Comments" data="CMT_EMPTY">עדיין אין לך הערות ממתינות...</phrase>
+  <phrase section="Comments" data="CMT_INFO">כאן תוכל לעדכן את תצורת ההערות שלך.</phrase>
+  <phrase section="Comments" data="CMT_INFO1">כאן תוכל לעדכן את הערותיך הממתינות.</phrase>
+  <phrase section="Comments" data="CMT_MSGOK1">תודה! הביקורת שלך נשלחה.</phrase>
+  <phrase section="Comments" data="CMT_MSGOK2">תודה! הביקורת שלך נשלחה וממתינה לאימות.</phrase>
+  <phrase section="Comments" data="CMT_NAMEREQ">שם (חובה</phrase>
+  <phrase section="Comments" data="CMT_NEW">הוסף ביקורת</phrase>
+  <phrase section="Comments" data="CMT_NOCOMMENTS">עדיין אין ביקורות...</phrase>
+  <phrase section="Comments" data="CMT_NOTIFY">הודע למנהל המערכת</phrase>
+  <phrase section="Comments" data="CMT_PUBLIC">גישה ציבורית</phrase>
+  <phrase section="Comments" data="CMT_RATING">אפשר דירוג</phrase>
+  <phrase section="Comments" data="CMT_REGONLY">מצטערים רק משתמשים רשומים ומחוברים יכולים לפרסם ביקורות. נא להיכנס או להירשם.</phrase>
+  <phrase section="Comments" data="CMT_REPLAY">תשובה</phrase>
+  <phrase section="Comments" data="CMT_SHOWCAP">הצג Captcha</phrase>
+  <phrase section="Comments" data="CMT_SINCE">השתמש בזמן מאז</phrase>
+  <phrase section="Comments" data="CMT_SORTING">מיון הערות</phrase>
+  <phrase section="Comments" data="CMT_SORTING_B">--- אחרונים / למטה ---</phrase>
+  <phrase section="Comments" data="CMT_SORTING_T">--- אחרונים / מובילים ---</phrase>
+  <phrase section="Comments" data="CMT_UPDATE">עדכון תצורה</phrase>
+  <phrase section="Comments" data="CMT_UPDATE_OK">תצורת ההערה עודכנה בהצלחה.</phrase>
+  <phrase section="Comments" data="CMT_YRATING">הדירוג שלך</phrase>
+  <!-- Settings -->
+  <phrase section="Settings" data="CONF_AUTOVERIFY">רישום אוטומטי</phrase>
+  <phrase section="Settings" data="CONF_AV_WH">רוחב/גובה אווטאר</phrase>
+  <phrase section="Settings" data="CONF_COMMENTS">אפשר הערות</phrase>
+  <phrase section="Settings" data="CONF_COMPANY">שם החברה</phrase>
+  <phrase section="Settings" data="CONF_CPERPAGE">קטגוריה פריטים</phrase>
+  <phrase section="Settings" data="CONF_CURRENCY">מטבע ברירת המחדל</phrase>
+  <phrase section="Settings" data="CONF_DELLOGO">מחק לוגו</phrase>
+  <phrase section="Settings" data="CONF_DIR">התקן ספרייה</phrase>
+  <phrase section="Settings" data="CONF_DTZ">אזור זמן ברירת מחדל</phrase>
+  <phrase section="Settings" data="CONF_EMAIL">אימייל של החברה</phrase>
+  <phrase section="Settings" data="CONF_ETAX">הפעל מע"מ/מס</phrase>
+  <phrase section="Settings" data="CONF_EUCOOKIE">אפשר הודעת חוק עוגיות של האיחוד האירופי</phrase>
+  <phrase section="Settings" data="CONF_FBID">מזהה פייסבוק</phrase>
+  <phrase section="Settings" data="CONF_FEATURED">פריטים נבחרים</phrase>
+  <phrase section="Settings" data="CONF_FILEDIR">ספריית קבצים</phrase>
+  <phrase section="Settings" data="CONF_FREEDOWN">הורדות חינם</phrase>
+  <phrase section="Settings" data="CONF_GA">קוד גוגל אנליטיקס</phrase>
+  <phrase section="Settings" data="CONF_GMAPKEY">מפתח API של מפות Google</phrase>
+  <phrase section="Settings" data="CONF_HLAYOUT">פריסת דף הבית</phrase>
+  <phrase section="Settings" data="CONF_INFO">שינויים שיבוצעו כאן ישפיעו על ההגדרות של Digital Download Pro.</phrase>
+  <phrase section="Settings" data="CONF_INVDATA">נתוני חשבוניות</phrase>
+  <phrase section="Settings" data="CONF_INVNOTE">הערות חשבונית</phrase>
+  <phrase section="Settings" data="CONF_LANG">שפת ברירת מחדל</phrase>
+  <phrase section="Settings" data="CONF_LOCALES">מיקום ברירת מחדל</phrase>
+  <phrase section="Settings" data="CONF_LOG_ON">רישום את כל הפעולות</phrase>
+  <phrase section="Settings" data="CONF_LOGIN_ATTEMPT">ניסיונות כניסה שגויים</phrase>
+  <phrase section="Settings" data="CONF_LOGIN_TIME">זמן המתנה לכניסה</phrase>
+  <phrase section="Settings" data="CONF_LOGO">לוגו חברה</phrase>
+  <phrase section="Settings" data="CONF_LOGOP">הדפס לוגו</phrase>
+  <phrase section="Settings" data="CONF_LONGDATE">דייט ארוך</phrase>
+  <phrase section="Settings" data="CONF_MAILER">דואר ברירת מחדל</phrase>
+  <phrase section="Settings" data="CONF_NOTIFY_ADMIN">הודעת רישום</phrase>
+  <phrase section="Settings" data="CONF_OFFLINE">מידע על תשלום לא מקוון</phrase>
+  <phrase section="Settings" data="CONF_OFFLINE_DT">תאריך/שעה סיום</phrase>
+  <phrase section="Settings" data="CONF_OFFLINE_M">מצב תחזוקה</phrase>
+  <phrase section="Settings" data="CONF_OFFLINE_MS">הודעת מצב תחזוקה</phrase>
+  <phrase section="Settings" data="CONF_PERPAGE">פריטים לכל עמוד</phrase>
+  <phrase section="Settings" data="CONF_PLOADER">הפעל את טוען הדפים</phrase>
+  <phrase section="Settings" data="CONF_REGVERIFY">אימות רישום</phrase>
+  <phrase section="Settings" data="CONF_SHORTDATE">דייט קצר</phrase>
+  <phrase section="Settings" data="CONF_SITE">שם האתר</phrase>
+  <phrase section="Settings" data="CONF_SMAILPATH">נתיב שלח דואר</phrase>
+  <phrase section="Settings" data="CONF_SMTP_HOST">שם מארח SMTP</phrase>
+  <phrase section="Settings" data="CONF_SMTP_PASS">סיסמת SMTP</phrase>
+  <phrase section="Settings" data="CONF_SMTP_PORT">יציאת SMTP</phrase>
+  <phrase section="Settings" data="CONF_SMTP_SSL">דורש SSL</phrase>
+  <phrase section="Settings" data="CONF_SMTP_USER">שם משתמש SMTP</phrase>
+  <phrase section="Settings" data="CONF_TH_WH">רוחב/גובה של תמונה ממוזערת</phrase>
+  <phrase section="Settings" data="CONF_THEME">ערכת נושא המוגדרת כברירת מחדל</phrase>
+  <phrase section="Settings" data="CONF_THEME_COLOR">צבע נושא</phrase>
+  <phrase section="Settings" data="CONF_TIMEFORMAT">פורמט זמן</phrase>
+  <phrase section="Settings" data="CONF_TWID">מזהה טוויטר</phrase>
+  <phrase section="Settings" data="CONF_UPDATE">עדכון תצורה</phrase>
+  <phrase section="Settings" data="CONF_UPDATE_OK">תצורת המערכת עודכנה בהצלחה!</phrase>
+  <phrase section="Settings" data="CONF_WEEKSTART">השבוע מתחיל ב</phrase>
+  <!-- Dashboard -->
+  <phrase section="Dashboard" data="DASH_AMEM">חברות פעילות</phrase>
+  <phrase section="Dashboard" data="DASH_AUSER">משתמשים פעילים</phrase>
+  <phrase section="Dashboard" data="DASH_INFO">כאן תוכל לצפות בסטטיסטיקות המשתמשים העדכניות ביותר שלך, כגון עסקאות איחור, מספר משתמשים רשומים וכו'.</phrase>
+  <phrase section="Dashboard" data="DASH_MY">חודש שנה</phrase>
+  <phrase section="Dashboard" data="DASH_PRODS">סך כל המוצרים</phrase>
+  <phrase section="Dashboard" data="DASH_REVENUE">הכנסות מהאתר</phrase>
+  <phrase section="Dashboard" data="DASH_RUSER">משתמשים רשומים</phrase>
+  <phrase section="Dashboard" data="DASH_TINCOME">הכנסה כוללת</phrase>
+  <phrase section="Dashboard" data="DASH_TITLE">ברוכים הבאים לפאנל הניהול</phrase>
+  <phrase section="Dashboard" data="DASH_TODAY">היום</phrase>
+  <phrase section="Dashboard" data="DASH_TYEAR">סך הכל נאסף כל הזמנים</phrase>
+  <!-- Trash -->
+  <phrase section="Trash" data="TRS_DELGOOD">מחק לנצח</phrase>
+  <phrase section="Trash" data="TRS_EMPTY">האשפה ריקה.</phrase>
+  <phrase section="Trash" data="TRS_INFO">פריטים מעל 30 יום נמחקים אוטומטית לנצח.</phrase>
+  <phrase section="Trash" data="TRS_TEMPTY">רוקן את האשפה</phrase>
+  <phrase section="Trash" data="TRS_TRS_OK">כל הרשומות בפח האשפה מוסרות כעת.</phrase>
+  <!-- Front End -->
+  <phrase section="Front" data="EU_NOTICE">אנו משתמשים בעוגיות כדי לשפר את החוויה שלך באתר. חלק מהעוגיות נדרשות כדי להבטיח שהאתר פועל כהלכה, מסיבה זו ייתכן שכבר הגדרנו כמה עוגיות. עוגיות אחרות אוספות נתונים אנונימיים לגבי אופן השימוש שלך באתר, אולם אלה יוגדרו רק אם תיתן את הסכמתך.</phrase>
+  <phrase section="Front" data="CONTACT_ERR">הייתה בעיה בשליחת דוא"ל.</phrase>
+  <phrase section="Front" data="CONTACT_INFO">פרטים ליצירת קשר</phrase>
+  <phrase section="Front" data="CONTACT_OK">תודה! הודעתך נשלחה בהצלחה. ניצור איתך קשר בהקדם.</phrase>
+  <phrase section="Front" data="CONTACT_WRITE">כתוב לנו</phrase>
+  <phrase section="Front" data="EU_ACCEPT">קבל עוגיות</phrase>
+  <phrase section="Front" data="EU_DECLINE">דחה קובצי Cookie</phrase>
+  <phrase section="Front" data="EU_DECLINE_T">בכך תופנה מחדש. האם אתה מעוניין להמשיך?</phrase>
+  <phrase section="Front" data="EU_W_COOKIES">מהן עוגיות?</phrase>
+  <phrase section="Front" data="FRONT_ADINFO">סרטונים, קופונים ומידע נוסף</phrase>
+  <phrase section="Front" data="FRONT_CART_EMPTY">אין מוצרים בעגלה.</phrase>
+  <phrase section="Front" data="FRONT_CART_EMPTY1">אין לך פריטים בעגלת הקניות שלך.</phrase>
+  <phrase section="Front" data="FRONT_CART_ERROR">אופס, אירעה שגיאה בבחירת הפריט הזה.</phrase>
+  <phrase section="Front" data="FRONT_CART_ERROR1">מצטערים, ישנם מפתחות CD זמינים [KEYS].</phrase>
+  <phrase section="Front" data="FRONT_CART_ERROR2">אנא [LOGIN] או [REGISTER] כדי להמשיך בתהליך התשלום.</phrase>
+  <phrase section="Front" data="FRONT_CART_ERROR3">כמות מוצר לא חוקית.</phrase>
+  <phrase section="Front" data="FRONT_CART_OK">המוצר [NAME] נוסף בהצלחה.</phrase>
+  <phrase section="Front" data="FRONT_CART_TOTALS">סכומי עגלה</phrase>
+  <phrase section="Front" data="FRONT_CART_UPDATE">עדכן עגלת קניות</phrase>
+  <phrase section="Front" data="FRONT_COMPARE">השווה בין מוצרים</phrase>
+  <phrase section="Front" data="FRONT_COMPARE_EMPTY">אין לך מוצרים להשוות.</phrase>
+  <phrase section="Front" data="FRONT_CONTINUE">המשך בקניות</phrase>
+  <phrase section="Front" data="FRONT_CREVIEW">חוות דעת של לקוחות</phrase>
+  <phrase section="Front" data="FRONT_ERROR01">נבחרה חשבונית לא חוקית.</phrase>
+  <phrase section="Front" data="FRONT_FPROP">נכס קובץ</phrase>
+  <phrase section="Front" data="FRONT_MTNC_TITLE">אנחנו מתכוננים להשיק פנימה</phrase>
+  <phrase section="Front" data="FRONT_NO_RESULTS">שום דבר לא נמצא...</phrase>
+  <phrase section="Front" data="FRONT_SEARCH_EMPTY">מצטער, החיפוש שלך עבור</phrase>
+  <phrase section="Front" data="FRONT_SEARCH_EMPTY1">לא הניב שום תוצאות. אנא נסה לחפש מונחים דומים.</phrase>
+  <phrase section="Front" data="FRONT_SEARCH_EMPTY2">אנא הזן כמה מילות מפתח בתיבת החיפוש כדי לבצע חיפוש.</phrase>
+  <phrase section="Front" data="FRONT_SEARCH_FOR">תוצאות חיפוש עבור</phrase>
+  <phrase section="Front" data="FRONT_VIEW_CART">צפה בסל</phrase>
+  <phrase section="Front" data="FRONT_VIP_ERROR">אנא [LOGIN] או [REGISTER] כדי להמשיך לבחור את חבילת ה-VIP שלך.</phrase>
+  <!-- Blog -->
+  <phrase section="Blog" data="_MOD_AM_TITLE">מנהל בלוג</phrase>
+  <phrase section="Blog" data="_MOD_AM_SLUG">מאמר Slug</phrase>
+  <phrase section="Blog" data="_MOD_AM_NEW">מאמר חדש</phrase>
+  <phrase section="Blog" data="_MOD_AM_TITLE2">ערוך מאמר</phrase>
+  <phrase section="Blog" data="_MOD_AM_NOARTICLE">עדיין אין לך מאמרים. תוסיף בבקשה...</phrase>
+  <phrase section="Blog" data="_MOD_AM_DEL_OK">המאמר [NAME] נמחק בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_CATDEL_OK">הקטגוריה [NAME] נמחקה בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_SELONE">אנא בחר לפחות קטגוריה אחת</phrase>
+  <phrase section="Blog" data="_MOD_AM_CATS">קטגוריות בלוגים</phrase>
+  <phrase section="Blog" data="_MOD_AM_PARENT">הורה בקטגוריה</phrase>
+  <phrase section="Blog" data="_MOD_AM_CSLUG">קטגוריה Slug</phrase>
+  <phrase section="Blog" data="_MOD_AM_NEWCAT">קטגוריה חדשה</phrase>
+  <phrase section="Blog" data="_MOD_AM_IPC">פריטים לפי קטגוריה</phrase>
+  <phrase section="Blog" data="_MOD_AM_CONF">תצורת בלוג</phrase>
+  <phrase section="Blog" data="_MOD_AM_SHARE">הצג שיתוף</phrase>
+  <phrase section="Blog" data="_MOD_AM_CREATED">הצג נוצר</phrase>
+  <phrase section="Blog" data="_MOD_AM_LATEST">אחרון לכל עמוד</phrase>
+  <phrase section="Blog" data="_MOD_AM_CLATEST">פריטים לפי קטגוריה</phrase>
+  <phrase section="Blog" data="_MOD_AM_CUPDATED">הגדרות הבלוג עודכנו בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_CAT_UPDATE_OK">הקטגוריה [NAME] עודכנה בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_CAT_ADDED_OK">קטגוריה [NAME] נוספה בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_ITM_UPDATE_OK">המאמר [NAME] עודכן בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_ITM_ADDED_OK">המאמר [NAME] נוסף בהצלחה!</phrase>
+  <phrase section="Blog" data="_MOD_AM_UPDATECAT">עדכן קטגוריה</phrase>
+  <phrase section="Blog" data="_MOD_AM_UPDATEITM">עדכן מאמר</phrase>
+  <phrase section="Blog" data="_MOD_AM_NEWCAT">קטגוריה חדשה</phrase>
+  <phrase section="Blog" data="_MOD_AM_HITS">להיטים</phrase>
+  <phrase section="Blog" data="_MOD_AM_THUMB_W">רוחב אגודל</phrase>
+  <phrase section="Blog" data="_MOD_AM_THUMB_H">גובה אגודל</phrase>
+  <phrase section="Blog" data="_MOD_AM_LATEST_TITLE">אחרון מהבלוג שלנו</phrase>
+  <phrase section="Blog" data="_MOD_AM_BLOG">בלוג</phrase>
+  <!-- Payments -->
+  <phrase section="Payments" data="STR_CCN">מספר כרטיס</phrase>
+  <phrase section="Payments" data="STR_CCV">CVC</phrase>
+  <phrase section="Payments" data="STR_CEXM">חודש תפוגה</phrase>
+  <phrase section="Payments" data="STR_CEXY">שנת תפוגה</phrase>
+  <phrase section="Payments" data="STR_ERR">זוהתה חברות לא חוקית.</phrase>
+  <phrase section="Payments" data="STR_ERR0">זוהתה עגלה לא חוקית.</phrase>
+  <phrase section="Payments" data="STR_ERR1">זוהתה רשומת עסקה לא חוקית.</phrase>
+  <phrase section="Payments" data="STR_POK">תודה! התשלום הושלם בהצלחה. מפנה מחדש תוך 4 שניות</phrase>
+  <phrase section="Payments" data="STR_POK1">אימות תשלום, אנא המתן...</phrase>
+  <phrase section="Payments" data="STR_SPCER">התשלום נכשל.</phrase>
+  <phrase section="Payments" data="STR_SPCOK">אישור תשלום.</phrase>
+  <!-- Meta -->
+  <phrase section="Meta" data="META_ERROR">הדף לא נמצא!!!</phrase>
+  <phrase section="Meta" data="META_ERROR1">אופס!!! הדף לא נמצא</phrase>
+  <phrase section="Meta" data="META_ERROR2">שגיאה 404</phrase>
+  <phrase section="Meta" data="META_M_ACC_ACT">הפעלת חשבון</phrase>
+  <phrase section="Meta" data="META_M_ACCNT">החשבון שלי</phrase>
+  <phrase section="Meta" data="META_M_ACCOUNT">סקירת חשבון</phrase>
+  <phrase section="Meta" data="META_M_BACKUP">תחזוקת מסד נתונים</phrase>
+  <phrase section="Meta" data="META_M_CART">עֲגָלָה</phrase>
+  <phrase section="Meta" data="META_M_CATEGORIES">נהל קטגוריות</phrase>
+  <phrase section="Meta" data="META_M_CHECKOUT">לבדוק</phrase>
+  <phrase section="Meta" data="META_M_COMMENTS">ניהול הערות</phrase>
+  <phrase section="Meta" data="META_M_CONFIGURE">תְצוּרָה</phrase>
+  <phrase section="Meta" data="META_M_COUNTRIES">ניהול מדינה</phrase>
+  <phrase section="Meta" data="META_M_COUPONS">נהל קופונים</phrase>
+  <phrase section="Meta" data="META_M_DASH">לוח המחוונים לניהול</phrase>
+  <phrase section="Meta" data="META_M_FAQ">מנהל שאלות נפוצות</phrase>
+  <phrase section="Meta" data="META_M_FDOWNS">הורדות חינם</phrase>
+  <phrase section="Meta" data="META_M_FIELDS">נהל שדות מותאמים אישית</phrase>
+  <phrase section="Meta" data="META_M_FILES">מנהל קבצים</phrase>
+  <phrase section="Meta" data="META_M_GATEWAY">ניהול אפשרויות תשלום</phrase>
+  <phrase section="Meta" data="META_M_HISTORY">היסטוריית תשלומים</phrase>
+  <phrase section="Meta" data="META_M_LANGUAGE">מנהל שפה</phrase>
+  <phrase section="Meta" data="META_M_LOGIN">התחבר</phrase>
+  <phrase section="Meta" data="META_M_MAINTENANCE">מנהל תחזוקה</phrase>
+  <phrase section="Meta" data="META_M_MDOWNS">הורדות חברות</phrase>
+  <phrase section="Meta" data="META_M_MEMBERSHIPS">ניהול חברות</phrase>
+  <phrase section="Meta" data="META_M_MENUS">ניהול תפריטים</phrase>
+  <phrase section="Meta" data="META_M_MHISTORY">היסטוריית חברות</phrase>
+  <phrase section="Meta" data="META_M_MYDOWNS">ההורדות שלי</phrase>
+  <phrase section="Meta" data="META_M_NEWS">חדשות אחרונות</phrase>
+  <phrase section="Meta" data="META_M_NEWS">ניהול הודעות חדשות</phrase>
+  <phrase section="Meta" data="META_M_NEWSLETTER">מנהל ניוזלטר</phrase>
+  <phrase section="Meta" data="META_M_PAGES">ניהול דפי תוכן</phrase>
+  <phrase section="Meta" data="META_M_PASSRESET">איפוס סיסמא</phrase>
+  <phrase section="Meta" data="META_M_PERMISSIONS">מנהל ההרשאות</phrase>
+  <phrase section="Meta" data="META_M_PRIVILEGE">מנהל הרשאות</phrase>
+  <phrase section="Meta" data="META_M_PRODUCTS">ניהול מוצר</phrase>
+  <phrase section="Meta" data="META_M_REGISTER">הַרשָׁמָה</phrase>
+  <phrase section="Meta" data="META_M_SEARCH">תוצאות חיפוש</phrase>
+  <phrase section="Meta" data="META_M_SETTINGS">הגדרות מערכת</phrase>
+  <phrase section="Meta" data="META_M_SYSTEM">מידע מערכת</phrase>
+  <phrase section="Meta" data="META_M_TEMPLATES">נהל תבניות דואר אלקטרוני</phrase>
+  <phrase section="Meta" data="META_M_TRASH">מנהל אשפה</phrase>
+  <phrase section="Meta" data="META_M_USERS">מנהל משתמשים</phrase>
+  <phrase section="Meta" data="META_M_WISHLIST">רשימת המשאלות שלי</phrase>
+  <phrase section="Meta" data="META_WELCOME">ברוכים הבאים אל [COMPANY]</phrase>
+  <phrase data="META_ACCOUNT">חֶשְׁבּוֹן</phrase>
+  <phrase data="META_BACKUP">גיבוי</phrase>
+  <phrase data="META_CATEGORIES">קטגוריות</phrase>
+  <phrase data="META_COMMENTS">הערות</phrase>
+  <phrase data="META_COUNTRIES">מדינות</phrase>
+  <phrase data="META_COUPONS">קופונים</phrase>
+  <phrase data="META_DASH">לוּחַ מַחווָנִים</phrase>
+  <phrase data="META_EDIT">לַעֲרוֹך</phrase>
+  <phrase data="META_FAQ">שאלות נפוצות</phrase>
+  <phrase data="META_FIELDS">שדות מותאמים אישית</phrase>
+  <phrase data="META_FILES">קבצים</phrase>
+  <phrase data="META_GATEWAYS">אפשרויות תשלום</phrase>
+  <phrase data="META_HISTORY">הִיסטוֹרִיָה</phrase>
+  <phrase data="META_LANGUAGE">שפה</phrase>
+  <phrase data="META_MAINTENANCE">תחזוקה</phrase>
+  <phrase data="META_MEMBERSHIPS">חברות</phrase>
+  <phrase data="META_MENUS">תפריטים</phrase>
+  <phrase data="META_NEW">חָדָשׁ</phrase>
+  <phrase data="META_NEWS">חֲדָשׁוֹת</phrase>
+  <phrase data="META_NEWSLETTER">ניוזלטר</phrase>
+  <phrase data="META_PAGES">דפים</phrase>
+  <phrase data="META_PASSWORD">סיסמה</phrase>
+  <phrase data="META_PERMISSIONS">הרשאות</phrase>
+  <phrase data="META_PRIVILEGES">הרשאות</phrase>
+  <phrase data="META_PRODUCTS">מוצרים</phrase>
+  <phrase data="META_SETTINGS">הגדרות</phrase>
+  <phrase data="META_TMPLATES">תבניות אימייל</phrase>
+  <phrase data="META_TRANS">עסקאות</phrase>
+  <phrase data="META_TRASH">אַשׁפָּה</phrase>
+  <phrase data="META_USERS">משתמשים</phrase>
+</language>

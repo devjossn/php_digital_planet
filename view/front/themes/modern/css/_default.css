@@ -1,0 +1,234 @@
+/* == Utility == */
+
+ul.top-menu > li a {
+  color: #fff!important;
+}
+
+ul.top-menu.show-on-mobile {
+  background: #000;
+}
+
+.logoshape1,
+.logoshape3 {
+  fill: #667eea!important;
+}
+
+p,div,h2,h1,h4,h5,h6,span,em {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Open Sans Hebrew';
+    
+}
+
+h2,h1,h3,h4,h5,h6{
+    font-weight: 700;
+}
+
+p,div,span{
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 1.4em;
+}
+ul.top-menu > li {
+    float: right !important;
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+  background: #000!important;
+}
+
+.wojo.dark.buttons .button, .wojo.dark.button {
+  background-color: #16c997!important;
+  color: #fff!important;
+  border-color: #16c997!important;
+}
+
+.wojo.button:not(.icon) .icon, .wojo.button:not(.icon) img {
+  margin-right: 0px!important;
+  padding-left: 5px!important;
+}
+
+header .logo {
+  width: 90%!important;
+}
+
+ul.top-menu > li a:hover, ul.top-menu > li.active > a {
+  color: #16c997!important;
+}
+
+#special1 {
+  background-color: #000!important;
+  color: #fff!important;
+  border: 1px solid #000!important;
+}
+
+#special2 {
+  background-color: #000!important;
+  color: #fff!important;
+  border: 1px solid #000!important;
+}
+
+.wojo.transparent.button {
+  background: rgb(22, 201, 151)!important;
+  color: #fff!important;
+  border-color: #16c997!important;
+}
+
+.wojo.strike.text {
+  text-decoration: line-through #c70000 2px!important;
+  font-size: 1em!important;
+  padding-right: 7px!important;
+}
+
+.wojo.dark.label {
+  background-color: #000!important;
+  border-color: #000!important;
+  color: #fff!important;
+  font-size: 1.2em !important;
+}
+
+.truncate {
+  white-space: normal!important;
+}
+
+a.grey {
+  color: #000!important;
+}
+
+a.grey:hover, a.grey.hover, a.grey:focus {
+  color: #16c997!important;
+}
+
+.icon.facebook {
+  color: white !important;
+}
+
+.icon.twitter {
+  color: white !important;
+}
+
+.icon.pinterest {
+  color: white !important;
+}
+
+.wojo.tabs .nav li.active a, .wojo.tabs .nav li a:hover, .wojo.navs .nav li.active a, .wojo.navs .nav li a:hover {
+  background-color: #000!important;
+  color: white !important;
+}
+
+#pMore > li:nth-child(2) > a:nth-child(1) {
+  color: white !important;
+  background: black!important;
+}
+
+.wojo.tabs .nav li a {
+  justify-content: center!important;
+}
+
+.wojo.tabs .nav li a .icon {
+  margin-left: .5rem!important;
+}
+
+.wojo.simple.button, .wojo.simple.primary.buttons .button, .wojo.simple.primary.button, .wojo.simple.secondary.buttons .button, .wojo.simple.secondary.button, .wojo.simple.positive.buttons .button, .wojo.simple.positive.button, .wojo.simple.negative.buttons .button, .wojo.simple.negative.button, .wojo.simple.white.buttons .button, .wojo.simple.white.button, .wojo.simple.light.buttons .button, .wojo.simple.light.button, .wojo.simple.dark.buttons .button, .wojo.simple.dark.button {
+  border-color: #16c997;
+  background: #16c997 !important;
+  color: #fff !important;
+  margin: 3px!important;
+}
+
+a.wishlist:nth-child(1) {
+   color: #fff !important;   
+}
+
+a.compare:nth-child(2) {
+       color: #fff !important;   
+}
+    
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1.4em!important;
+}
+
+.wojo.white.button:hover, .wojo.white.button:active, .wojo.white.button:focus {
+  background-color: #000!important;
+  border-color: #000!important;
+}
+
+p.wojo.demi.text {
+  display: none!important;
+}
+
+.grid-text-content p {
+  text-align: center!important;
+  margin-bottom: 15px!important;
+}
+
+.wojo.inverted.primary.buttons .button, .wojo.inverted.primary.button {
+  background-color: #000!important;
+  color: #fff!important;
+  border-color: #000!important;
+}
+
+a {
+  color: #0093ec!important;
+}
+
+.wojo.secondary.button {
+  background-color: #f3e400!important;
+  border-color: #000!important;
+  color: black !important;
+}
+
+.wojo.simple.button {
+  background: #000 !important;
+}
+
+.wojo.stars a {
+  font-size: 0.913em!important;
+  margin-left: 0px!important;
+  color: #7e7e7e!important;
+  margin-right: 11px!important;
+  margin-top: 3px!important;
+}
+
+.wojo.primary.button {
+  background-color: #000!important;
+    border-color: #000!important;
+}
+ 
+.button {
+  background-color: #000!important;
+    border-color: #000!important;
+}
+
+
+body {
+  color: #252525!important;
+}
+
+.related-product-content h4 a {
+  text-align: center!important;
+  color: #1a1a1a !important;
+}
+
+.fluidbox__wrap {
+  text-align: center!important;
+}
+
+.left.margin {
+  margin-left: 0px!important;
+}
+
+.wojo.label {
+  font-size: 1.113rem!important;
+}
+
+.wojo.horizontal.list:not(.celled):not(.bulleted) > .item:first-child {
+  padding-left: 1em!important;
+}
+
+.wojo.divided.horizontal.list > .item {
+  margin-top: 2px!important;
+}

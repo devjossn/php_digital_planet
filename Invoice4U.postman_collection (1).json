@@ -1,0 +1,931 @@
+{
+	"info": {
+		"_postman_id": "52e51551-70f9-4aed-b523-4c71f7bf3a3e",
+		"name": "Invoice4U",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Verify login",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"barak@invoice4u.co.il\",\n\t\"password\": \"barak7287\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/VerifyLogin",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"VerifyLogin"
+					]
+				},
+				"description": "Basic login"
+			},
+			"response": []
+		},
+		{
+			"name": "Get user details",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"email\": \"barak@invoice4u.co.il\",\n\t\"password\": \"Barak7287\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/VerifyLogin",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"VerifyLogin"
+					]
+				},
+				"description": "Basic login"
+			},
+			"response": []
+		},
+		{
+			"name": "Get branches",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"token\" :\"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetBranches",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetBranches"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customer by guid",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"guid\": \"b6a83eeb-casfbc0-4b01-a71b-6d6asdaf\",\r\n\t\"token\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetCustomerByGuid",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetCustomerByGuid"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Customers by params",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"Customer\": {\r\n        \"Name\": \"barakk\",\r\n        \"Email\": \"searchMail\",\r\n        \"UniqueId\": \"111111111\",\r\n        \"Cell\": \"0547909700\"  \r\n    },\r\n\t\"token\": \"042C34DFB9CCEBDB11B73A0D7BBD10D0AF92006603C059F11E89A1B1F49A8BBDB758E6EE6A4C0B866B3691DA35C29A14131FC7664709E18BCB84050818CC296ECA04901E1C14634411EEAA493FCDE1FD26ACBEFEC30481626D6A60EB885F91B8F32E792CA7FB5CEE5BF9D94BE270ABB98DAEED5B38FBB0A582A97B9A52EB92145351B529D59DA27D18A841D7868843FE7F2812A6CB14435FEDC8D51F6B4625A453042F8FAB7291AE96C1E2E8CBA97967D53C15A83CFBCAE41457C060607895B34AB52CDBA5C3D4241E1EB05BE6889C4DDB0D803CEFA3D3154C593B37175C856BEEFD13B06B88481DC32677C0C15727D6F333DCD8680DE41BFA79D24F5191FC53CC89D9C3B8B9F47B6E2B2CDF8731A7C4D0D4F6C31F83B639D146E70D4592F0728087CF8BBDF801A5B94EBA082A4EEE8E6CE2B1E40CCB6EDFC6D6DA11FA9F75F7B0ED4DD315D375959049F40C14940EC4CEB26A5964D09DFC688FE28DD626A59B8A17646E0404EDC0D3077CAE58E080C367F516D2E4929B4FA320E7CFAF0B0956E86E1A8ED31070BD397BEEFDBBF766DAB5A8AF8F7BD362ACA3E0935204DFD6E853473FEB0BC86B93CF7C62553D866192CF41C3EFD307C0A58E02E455600B2DCAA96502C90D06ECD0CF09B455C38DE5010C68C9C1E5C292A900464D865BADFA3719688CE8A7302291A6EBA8CF93350B68766874DB09386FA47B99B3EA0D5C1CEDA58EE5F26A1EDE9A8D04DBD4C5ABB9918D9FD08F4012001A5B1930A5475670FE80FC494AAFFD2C4AC6D606C0BEDBDF4974A4C01D9F6EAC12FD4FB0BB9660C5160D94AEB50455F948196D68A9CCBD744E17BFC0C08178E3FDC276EA32FAC0F5BE3EB9EA10DFBA6B9B06B14303D00BAF5070378494CC2993AB2D9E8F573C093030ADAF50E50A245325C3EA03EF7EBE295AEF7E38C01DAEC994647F23577D5A4FFCA47F9AEF6C2D1379992D2E5C99709C257D6E4380776705EC0BF022995F4DD54EC5860613\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetCustomers",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetCustomers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create customer",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"cu\": {\r\n\t\t\"Name\": \"baraktest\",\r\n\t\t\"Email\": \"tzachi@payplus.co.il\",\r\n        \"Guid\": \"b6a83eeb-casfbc0-4b01-a71b-6d6asdaf\",\r\n\t\t\"Phone\": \"035555444\",\r\n\t\t\"Active\": \"true\",\r\n        \"Zip\": \"1111\",\r\n        \"IsNonUniqueNameCreation\" : \"true\"\r\n\t},\r\n\t\"token\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateCustomer",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateCustomer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create document: Invoice",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"doc\": {\n\t\t\"DocumentType\": 1,\n\t\t\"ClientID\": 3513772,\n\t\t\"Subject\": \"Subject for new invoice\",\n\t\t\"Currency\": \"ILS\",\n\t\t\"Items\": [\n\t\t\t{\n\t\t\t\t\"Name\": \"First item (taxable)\",\n\t\t\t\t\"Quantity\": 1,\n\t\t\t\t\"Price\": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Code\": \"2\",\n\t\t\t\t\"Name\": \"Second item (tax free)\",\n\t\t\t\t\"Quantity\": 2,\n\t\t\t\t\"Price\": 1,\n\t\t\t\t\"TaxPercentage\": 0\n\t\t\t}\n\t\t\t],\n\t\t\"AssociatedEmails\": [\n\t\t\t{\n\t\t\t\t\"Mail\": \"test@test.com\",\n\t\t\t\t\"IsUserMail\": true\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Mail\": \"ClientMail@test.com\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t}\n\t\t\t],\n            \"SmsMessages\" : [\n                {\n\t\t\t\t    \"PhoneNumber\": \"0547778887\"\n\t\t\t    }\n            ]\n\t},\n\t\"token\": \"BB0511F997924BCDF2CB6CAB33DFCC3FA655822F7415F712043F31533178F06A6D5F1FDDD7DE223BE75D335C2BB1423A03B59B70C9A68113E08E99DACE72C3B057336A9478F55D7A0D4083996F135152988E939A4F6EA9E0D3B8D3F63EE94D9CC64AECA72B36E991BB424F6CEFD550D30848088D8D13584ED515675B52945C0361F7DF6A4E74155B051BAF15F94D5990D423DD03E063BD0323EFFB3060111823366794C386ABC97D7D73D6F2B2261FEA4E6686962DE28ED860F2CF227CDC1D5F3FEDBC25FD81F8A1C1FBF382B298F7917B4B608BD0F415AEC1DD87115292EFD78F10528F0A827766FCF5F7570A18E38A3C301DDA7122A67F5B265671F0CF02774A8E068406ADFA751D764ACEB57AAE6709FE6ECAFD3471C50355D4168C9EF2D3FC9113841563822083FC4C14547AB7456FC0E336EE4D42FF24C9853BABEFCB2EA3330D09C5C8DC23747E4276514534B34EACB9167C1823079475B76B069EDEA7A0EEF634F937FECECF14FB05CF07AEF8682A04C405A11A6F5C0BA95208672EC812996F5A1872B533BE7ABA36D42F32A52824B7D6A7AE77753A1281E2ECBE6BDFBED3D7C22E8FFD699602787AC5F8B896EF7B57DF8F7EDC62A8029D2A0E7D9081542BE5A7E7A6D5E25066F61BF9850F906E5C8069D61662AC49B9E02D8CE54402A58D9175127CDD65DE59691EAE66BCAA618DAB995A24010D29B4ECBAF56FF65A5A9A2CC4B9041E598F0B9FAF7132B7F739479E92A0DC6B0D2AAB896623743A9DFD86B4E6B997A891C96B4BB469B7D11B559C746EA6D2F08A41F3D46C70010A53C7E045B7CEF720353031114BBCC5BA3C51E7FE3F62886CFFA03671F3C74D607BD002DD673ED4FE82F7A98DF28049283DFEF22F6ED09DEB6C32919D031A72FE8FFE1486FA9D3822C76EC98CA4EB19D64BF29FF205D9030F39634F7686CFE8AAC5269B77D99943B613798F02FDB1C4CAA334F7A9A9EBAFEA0591B744284D6DE13B56A2DF0DC9CF1DAD45C5126D93B8E16080267373\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateDocumentWithIdentifierValidation",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateDocumentWithIdentifierValidation"
+					],
+					"query": [
+						{
+							"key": "DocumentType",
+							"value": "1",
+							"description": "[*] (int)DocumentType.Invoice",
+							"disabled": true
+						},
+						{
+							"key": "ClientID",
+							"value": "",
+							"description": "[*A] (int)",
+							"disabled": true
+						},
+						{
+							"key": "Subject",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Currency",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Items",
+							"value": "",
+							"description": "[*] (array of \"Item\" objects)",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create an invoice with 2 items and all possible parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "Create document: Receipt",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"doc\": {\n\t\t\"DocumentType\": 2,\n\t\t\"ClientID\":3391353,\n\t\t\"Subject\": \"Subject for new receipt\",\n\t\t\"Currency\": \"ILS\",\n\t\t\"Payments\": [\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583186400000+0200)/\",\n\t\t\t\t\"Amount\": 1,\n\t\t\t\t\"PaymentType\": 4\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583187400000+0200)/\",\n\t\t\t\t\"Amount\": 2,\n\t\t\t\t\"PaymentType\": 1\n\t\t\t}\n\t\t\t],\n\t\t\"AssociatedEmails\": [\n\t\t\t{\n\t\t\t\t\"Mail\": \"test@test.com\",\n\t\t\t\t\"IsUserMail\": true\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Mail\": \"ClientMail@test.com\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t}\n\t\t\t],\n             \"SmsMessages\" : [\n                {\n\t\t\t\t    \"PhoneNumber\": \"0547778887\"\n\t\t\t    }\n             ]\n\t},\n\t\"token\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateDocumentWithIdentifierValidation",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateDocumentWithIdentifierValidation"
+					],
+					"query": [
+						{
+							"key": "DocumentType",
+							"value": "2",
+							"description": "[*] (int)DocumentType.Receipt",
+							"disabled": true
+						},
+						{
+							"key": "ClientID",
+							"value": "",
+							"description": "[*A] (int)",
+							"disabled": true
+						},
+						{
+							"key": "Subject",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Currency",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Payments",
+							"value": "",
+							"description": "[*] (array of \"Payment\" objects)",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create an invoice with 2 items and all possible parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "Create document: Receipt for donation",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"doc\": {\n\t\t\"DocumentType\": 2,\n        \"IsDonation\": true,\n\t\t\"ClientID\":1421048,\n\t\t\"Subject\": \"Subject for new receipt\",\n\t\t\"Currency\": \"ILS\",\n\t\t\"Payments\": [\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583186400000+0200)/\",\n\t\t\t\t\"Amount\": 1,\n\t\t\t\t\"PaymentType\": 4\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583187400000+0200)/\",\n\t\t\t\t\"Amount\": 2,\n\t\t\t\t\"PaymentType\": 2,\n                \"PaymentNumber\": \"12345\"\n\t\t\t}\n\t\t\t],\n\t\t\"AssociatedEmails\": [\n\t\t\t{\n\t\t\t\t\"Mail\": \"test@test.com\",\n\t\t\t\t\"IsUserMail\": true\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Mail\": \"ClientMail@test.com\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t}\n\t\t\t],\n             \"SmsMessages\" : [\n                {\n\t\t\t\t    \"PhoneNumber\": \"0547778887\"\n\t\t\t    }\n             ]\n\t},\n\t\"token\": \"6F294E09D40A4999D6C544837B663BC110A6734D086C094E312CC59D80ECBE701652B3B5EC5B23BC04812B84EEF7B34EAA1834AC1DF6431FC6C0ADA5030B5FC3D42DFEC818E9F41230C811F4DF24FBA706E5271C491A03C9B3867512AF227242A1840A3B23ED3C253AF9C701B76E8D1956BC55403E21D0064AD00F59C2F460CB9F4737CCB3BC9FD6F5157DEDD35D159E15E6F21CAF434FCE3FEB0B7A70C9C8F8DF25981A692B490E832E25A0C35C6C166F3BF48D9EC0C8797B80DFCFA74BF6C17BDF7CC4197A4485417F7C63E2C9712A710CCB9784BD6E487736EAAF37EB9FBCE5E69A4819EF51EEB2C8425A96C9441119FBE7BD674310766270DD5CC47A669DC4890DF0363CC3F8DF71643761BD933501AA71130015AB4DFBCEB181FA56E2332A6EEC7ABD0843BB154CED8EAA156AF7669CF27538AD51C26C9255CDA2556F632E2037682CECA9512041B26552152E173CE53DE489E19BE3B54D6EE546570713D011DD5DDE59F75EAD3C8D499A01E43E3DF72A61EFF20B6997E49FE9B0433E6DD9AA9766EAC7CCFB2E1C32308D1EA9D3EC8BAB5F20917290155DDEE7D7BAEDCC5A87C76C6537BC8738B90816F1E1F02F93F780154A45ACAC909E9A5882C50052C5F7BAEF22CDF239E5278A28C20AA23ECA35272890BA1CD0287E5741DD155480588B23E1387C8D7AFC4244CAAEB33E46746739CF2BE5297261172478051E02E85860B4A58893541830673500317918FE4B18B2A0A01F276878AC72BF573111D1591E8FC2F295C8CC56DC9A793770EBEA9BFAA6AAE07D7490908D5D0D4BBC717EF7140A4B9E4572DCCFD4CC2ED15DCFAB3CDBC184DFB3860CC410D960EC30CA2B2E30A41751C0C7CC259223197DF52B6923B03931AB0E35B03F90D125C97F959E03C8AC219D41643D1FD30A82E147A958E8DA96849CB343192D609E0D2E5F7F9BBE211A41AD875191096393D76B0CCBF955378072B8AD53CAFEA02F506C4BC5A3E35FF37579FCC94C6EF08C4121551A66F357FE9BABD5D1F301A6EBB857F5E8FAC4DABD88\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateDocumentWithIdentifierValidation",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateDocumentWithIdentifierValidation"
+					],
+					"query": [
+						{
+							"key": "DocumentType",
+							"value": "2",
+							"description": "[*] (int)DocumentType.Receipt",
+							"disabled": true
+						},
+						{
+							"key": "ClientID",
+							"value": "",
+							"description": "[*A] (int)",
+							"disabled": true
+						},
+						{
+							"key": "Subject",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Currency",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Payments",
+							"value": "",
+							"description": "[*] (array of \"Payment\" objects)",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create an invoice with 2 items and all possible parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "Create document: Receipt for Invoice",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"doc\": {\n\t\t\"DocumentType\": 2,\n        \"DocumentReffType\": \"1\",\n\t\t\"ClientID\":4439830,\n\t\t\"Subject\": \"receipt for invoice\",\n\t\t\"Currency\": \"ILS\",\n        \"TaxIncluded\": true,\n        \"Invoices\": [\n            {\n                \"__type\": \"Document:#Invoice.Common\",\n            \"Errors\": [],\n            \"Info\": [],\n            \"OpenInfo\": [],\n            \"ActualCreationDate\": \"/Date(1647333870083+0200)/\",\n            \"AllowPaymentsOnDoc\": true,\n            \"Amount\": 0,\n            \"ApiDuplicityTimeValidation\": 60,\n            \"ApiIdentifier\": null,\n            \"AssociatedEmails\": null,\n            \"AttachmentFileName\": null,\n            \"AttachmentOriginalFileName\": null,\n            \"Attachments\": null,\n            \"AutoFixMismatchItemName\": null,\n            \"AutoFixPaymentsMismatchItems\": null,\n            \"Balance\": 0,\n            \"BankAccount\": null,\n            \"BaseDocId\": null,\n            \"BranchID\": 40904,\n            \"CancelDocument\": null,\n            \"CipherText\": \"ZWvkxIsGdVuTBSn24ujNys2H1fo8Ce6t0BmvEOOq6hyFf76ex9PaxEn1YDcXcMmfg22L5UVqD1oFNmXCeYfxE7H4QwGhLsupZ86q8%2f4etskARaBdRjkgqwKl6BJNDCQV\",\n            \"CipherTextOriginal\": \"xSxEdzy%2bK4b5Quzr4jhqPCdysMO849W0%2ftISuS6rgPmK4aak1U3SEWQGr2%2blM3ojZw4Zj5bc5%2btlYHS593FUmNLPVKHPyZ0R%2fxNb2Qn9QyNp2WRwerZnoed%2f2vS30r%2b335qUK8kLr56rG1kfw8%2foTQ%3d%3d\",\n            \"ClearingLogId\": null,\n            \"ClientEmail\": null,\n            \"ClientID\": 292892,\n            \"ClientName\": null,\n            \"CloseReceipt\": false,\n            \"ConversionRate\": 1,\n            \"ConversionRateDecimal\": 0,\n            \"ConversionRateToILS\": 0,\n            \"ConvertToILS\": false,\n            \"Credit\": 0,\n            \"CreditAmount\": 0,\n            \"Currency\": \"ILS\",\n            \"CurrencyName\": null,\n            \"CurrentDate\": null,\n            \"Debit\": 0,\n            \"DebitTransaction\": 0,\n            \"Deduction\": 0,\n            \"DepartureHour\": 0,\n            \"DepartureMinute\": 0,\n            \"Discount\": {\n                \"__type\": \"Discount:#Invoice.Common\",\n                \"Errors\": [],\n                \"Info\": [],\n                \"OpenInfo\": [],\n                \"BeforeTax\": true,\n                \"IsNominal\": true,\n                \"Value\": 0,\n                \"ValueDecimal\": 0\n            },\n            \"ID\": \"cffea303-33f9-4866-831e-8f71ec7c08c7\",\n            \"InternalComments\": \"\",\n            \"Invoices\": null,\n            \"Is2SignDoc\": null,\n            \"IsBillingDemand\": null,\n            \"IsDiscountNominal\": false,\n            \"IsDonation\": null,\n            \"IsOldSystemDocument\": false,\n            \"IsPreviewDocument\": false,\n            \"IsSelfInvoice\": false,\n            \"IsSendUserMail\": null,\n            \"IsSignedBy2Sign\": null,\n            \"IssueDate\": \"/Date(1647295200000+0200)/\",\n            \"Items\": [\n                {\n                    \"__type\": \"DocumentItem:#Invoice.Common\",\n                    \"Errors\": [],\n                    \"Info\": [],\n                    \"OpenInfo\": [],\n                    \"Avrage\": 0,\n                    \"Code\": \"\",\n                    \"ConversionRate\": 0,\n                    \"Currency\": null,\n                    \"Description\": null,\n                    \"Discount\": {\n                        \"__type\": \"Discount:#Invoice.Common\",\n                        \"Errors\": [],\n                        \"Info\": [],\n                        \"OpenInfo\": [],\n                        \"BeforeTax\": false,\n                        \"IsNominal\": false,\n                        \"Value\": 0,\n                        \"ValueDecimal\": 0\n                    },\n                    \"ID\": 27543805,\n                    \"IsCalcBeforeTax\": false,\n                    \"IsDiscountNominal\": false,\n                    \"LawyerIdentifier\": null,\n                    \"Name\": \"dfg\",\n                    \"Price\": 100,\n                    \"PriceDecimal\": 0,\n                    \"PriceFullInput\": 0,\n                    \"PriceFullInputDecimal\": 0,\n                    \"PriceIncludeTax\": 0,\n                    \"Quantity\": 1,\n                    \"QuantityDecimal\": 0,\n                    \"TaxPercentage\": 17,\n                    \"TaxPercentageDecimal\": null,\n                    \"Total\": 117,\n                    \"TotalCredit\": 0,\n                    \"TotalDecimal\": 0,\n                    \"TotalTax\": 17,\n                    \"TotalTaxDecimal\": 0,\n                    \"TotalWithoutTax\": 100,\n                    \"TotalWithoutTaxDecimal\": 0,\n                    \"UserCatalogID\": 0,\n                    \"UserCategoryID\": 0\n                }\n            ],\n            \"Language\": 1,\n            \"LawyerDocType\": null,\n            \"MailsAttached\": \"barak@invoice4u.co.il,barak@rnbsolutions.net,barak@invoice4u.co.il,barak@2sign.co.il\",\n            \"OldSystemDocGuid\": null,\n            \"OldSystemId\": 0,\n            \"OrganizationID\": 5506,\n            \"OrganizationUniqueID\": \"\",\n            \"Paid\": 0,\n            \"PaymentDueDate\": \"/Date(1653944400000+0300)/\",\n            \"Payments\": null,\n            \"PrintCertifiedCopyPDFLink\": null,\n            \"PrintOriginalPDFLink\": null,\n            \"ReceiptAmount\": 3,\n            \"RootOrganizationId\": 0,\n            \"RoundAmount\": 0,\n            \"RoundAmountDecimal\": 0,\n            \"SmsMessages\": null,\n            \"Status\": null,\n            \"StatusID\": 1,\n            \"Subject\": \"\",\n            \"TaxIncluded\": false,\n            \"TaxPercentage\": 17,\n            \"TaxPercentageDecimal\": null,\n            \"ToRoundAmount\": false,\n            \"Total\": 117,\n            \"TotalDecimal\": 0,\n            \"TotalTaxAmount\": 17,\n            \"TotalTaxAmountDecimal\": 0,\n            \"TotalTaxExempt\": null,\n            \"TotalTaxExemptDecimal\": null,\n            \"TotalWithoutTax\": 100,\n            \"TotalWithoutTaxDecimal\": 0,\n            \"UniqueID\": \"e9c1b62e-dad8-4a78-b2ad-f2e8d8970456\",\n            \"UseDecimalValues\": null,\n            \"UserID\": 5506\n            }\n        ],\n\t\t\"Payments\": [\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583186400000+0200)/\",\n\t\t\t\t\"Amount\": 3,\n\t\t\t\t\"PaymentType\": 3\n\t\t\t}\n\t\t\t],\n\t\t\"AssociatedEmails\": [\n\t\t\t{\n\t\t\t\t\"Mail\": \"test@test.com\",\n\t\t\t\t\"IsUserMail\": true\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Mail\": \"ClientMail@test.com\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t}\n\t\t\t],\n             \"SmsMessages\" : [\n                {\n\t\t\t\t    \"PhoneNumber\": \"0547778887\"\n\t\t\t    }\n             ]\n\t},\n\t\"token\": \"999764BD0D4EF9AF25BC75E4B52442479A737FAF085287FD58AA5232FDAEC858166F1159A149482949DAF9523CE58BE4FF2732E861D222F0FC83B1DC928DA8415DD63D1DD8938F11A01AA9F6B6BC4E9E24DBBC2E67674439213F324149868D48D11783A9DAE9F314441B182F51DF3055ED4CD0B29C1E775D7CE98249A4C84A2DA496B39BC1154ADCB6F0E52610C3B2D876D982A4F18CD53AB6BF81AF81DED5C3E27C2AAC6A8802E6EF5BB359EF08BA5D3CBC604D709F34BEA501046FEB4FFE1BE0E693D7C2EE1E4A56C32C8E10ED33031B3EDE4BD37787923110B9AAC02DB4362CE9E1FCD3F55F880BCF3F08338F22BE06EB1D6C4018E346C7356A680E3EC5260CED9787875594C1DCFFEBC099ACCF55439BDCF0E47CBEC80A5F733587E6F2FE27C51A2D86EF1261A0B966E5ED7251679FE044255C07F17AB61F157146D6D1C8B47FFFD604FF7FAA9233102220CBA1D3BD4A3AA5006FCCEC092F388ADE037B9EA761F162008531F98443F5726533914F72003CEFBA96FC22B4E1A23147C95213455932B5B099A3CED28D6992C11D6BDA28D4755CFEACFAE5C1291FF430138AB2AF032477D84AA6924954E6A78BC37894761A4E1AD1E77D9B4316EBB2305E27F0715D2A7AFD13363926052DA7714B891A0FE37B3BFB390F63DE97EF1B363E7227613A16F3DED35CC1FA1EABF53A4D46A75C754AE12359BAEB111FE757EC1BCCCAA40D77839B29614EE91A7AF9DB132F661582768AD3723826CB70010A4F43C632EBC2F044AE6CCFDCAB2D35E54EA8557455CAC496233E3A450E19D1D6A1EB4A5CC093C065B75E49F949F2F6925B94460590C0C0B45A8924F18E691ED9A0854295C15CAA85D641FFB50D03EEE1DC457A983042206470E3B2C84CF0DA8D92E5B5D4E069CF7C316D4E0ECDE52A2A25EAA5EAA30737F4E24014171938CD48D2CDE0CC71D2FE9E6147BF15600C360608365BC24BC3BBC2DF01AF28DD4C109F992505986BA1C245069BCB4F36C07F62F12862A7BC815676\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateDocumentWithIdentifierValidation",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateDocumentWithIdentifierValidation"
+					],
+					"query": [
+						{
+							"key": "DocumentType",
+							"value": "2",
+							"description": "[*] (int)DocumentType.Receipt",
+							"disabled": true
+						},
+						{
+							"key": "ClientID",
+							"value": "",
+							"description": "[*A] (int)",
+							"disabled": true
+						},
+						{
+							"key": "Subject",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Currency",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Payments",
+							"value": "",
+							"description": "[*] (array of \"Payment\" objects)",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create an invoice with 2 items and all possible parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDocument-Invoice Receipt - Regular client",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"doc\": {\n\t\t\"DocumentType\": 3,\n\t\t\"ClientID\": 4461962,\n\t\t\"Subject\": \"Subject for new invoice receipt\",\n\t\t\"Currency\": \"ILS\",\n        \"TaxIncluded\": true,\n\t\t\"Items\": [\n\t\t\t{\n\t\t\t\t\"Name\": \"First item (taxable)\",\n\t\t\t\t\"Quantity\": 2,\n\t\t\t\t\"Price\": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Code\": \"2\",\n\t\t\t\t\"Name\": \"Second item (taxable)\",\n\t\t\t\t\"Quantity\": 2,\n\t\t\t\t\"Price\": 1\n\t\t\t}\n\t\t\t],\n\t\t\"Payments\": [\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583186400000+0200)/\",\n\t\t\t\t\"Amount\": 2,\n\t\t\t\t\"PaymentType\": 4\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583187400000+0200)/\",\n\t\t\t\t\"Amount\": 2,\n\t\t\t\t\"PaymentType\": 1\n\t\t\t}\n\t\t\t],\n            \"AssociatedEmails\": [\n\t\t\t{\n\t\t\t\t\"Mail\": \"barak@rnbsolutions.net\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Mail\": \"ClientMail@test.com\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t}\n\t\t\t]\n\t},\n\t\"token\": \"5309C71760CCC01D022F0601872B210B8DD1B45E04C9BD9725E089D3E64CF06D958BC0F04067836A26A9213EB6462AB90A5776FC2931BDE1EA74BF4356359F298DACBC430EE55595AEAC8B59F7646F049AC1044E56D5CCE1AD90E44C697B7DDD9D7F2A5646B012CE4FC881CBC0B28D012E33072D7FC4E92BC3DA4652B490680BEAD511656AC731FEE6852E10FA3844527B4741DDBBBECE7115BB1DFF184E4BB0E26975B1CBD11B4881C3C211B7EECAE0F4CAA4F7023DAAB63E0B8D3A751F610D49F87A38139A4B3696E7D0F2D8320BA2107C75AA7F194A55E465D5ADF012CD3AAC1F6AC31164EDEE86566841475C5FD823CBD4756F3FAFD0EAE0FF2D4771482BDD999415988A709A64EF387593DA77114A175A4468447416C2390142D25A6BF9D2C82C5F4ED4E4F89EA84D9BB64AFBE614CD42858C2A9416C501AA389DD8FDCB9FB39801B3A1B58EC3E4FDA575006C3DB17EFBB934FE3FEE60189A53D1A14E59F7760AF94F0E340D4C620F971A588BE683722CE0D78F781BE1B67BBA780D493A2CFD33BF5FCF031A8AFD6C766C9951B1C8D4818572E18788CFB55A578EDF1082E8BF266BC2BE979A68D32A197B88B2A5FD4497A0ABC4DB1012709BACB76367E6D3C464F207684EF47B624D68365D887D76426E1B6554E68E0E4F3F380C28B61F82B2E603D775EDD39A68D44D632CFEAEAC18B6E5B32EF4A69B4A3F27D845F272003C82A331542B4596788438C003F5A1159DCA7CC02F2A9E681B5EDFA2A4E90203EC94B725708C664812D76F59175C7AC60E606D9FA53202D3B2E7ADFF67AB23CD821892C834C3909ED4C331C0351BE1806929197644F3637EE8F5DA02A2FF4D4AE0F53979135D6B21C112191866CDF5C2BCF0F05429470580890B22D3AAEE1C0FABF235B2993EB59C7F27BAB103A9F8208DDD5BB3A2C9A370C679D4810F4C8CABFD7AD30D437DB7FED3F63FAFD28E1DBAC157BC19BF5D336F154F4439CF02B27E8B84E52DA566E87E70A4593A99099D5D0D2B67B201C73A3AC576C70F6DA0AD1E3A6858\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateDocument",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateDocument"
+					],
+					"query": [
+						{
+							"key": "DocumentType",
+							"value": "2",
+							"description": "[*] (int)DocumentType.Receipt",
+							"disabled": true
+						},
+						{
+							"key": "ClientID",
+							"value": "",
+							"description": "[*A] (int)",
+							"disabled": true
+						},
+						{
+							"key": "Subject",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Currency",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Items",
+							"value": "",
+							"description": "[*] (array of \"Item\" objects)",
+							"disabled": true
+						},
+						{
+							"key": "Payments",
+							"value": "",
+							"description": "[*] (array of \"Payment\" objects)",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create an invoice with 2 items and all possible parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "CreateDocument-Invoice Receipt -General client",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"doc\": {\n\t\t\"DocumentType\": 3,\n\t\t\"GeneralCustomer\": {\n            \"Name\" : \"my name\",\n            \"Identifier\": \"036859484\"\n        },\n\t\t\"Subject\": \"Subject for new invoice receipt\",\n\t\t\"Currency\": \"ILS\",\n\t\t\"Items\": [\n\t\t\t{\n\t\t\t\t\"Name\": \"First item (taxable)\",\n\t\t\t\t\"Quantity\": 1,\n\t\t\t\t\"Price\": 1\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Code\": \"2\",\n\t\t\t\t\"Name\": \"Second item (tax free)\",\n\t\t\t\t\"Quantity\": 2,\n\t\t\t\t\"Price\": 1,\n\t\t\t\t\"TaxPercentage\": 0\n\t\t\t}\n\t\t\t],\n\t\t\"Payments\": [\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583186400000+0200)/\",\n\t\t\t\t\"Amount\": 1.17,\n\t\t\t\t\"PaymentType\": 4\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Date\": \"/Date(1583187400000+0200)/\",\n\t\t\t\t\"Amount\": 2,\n\t\t\t\t\"PaymentType\": 1\n\t\t\t}\n\t\t\t],\n            \"AssociatedEmails\": [\n\t\t\t{\n\t\t\t\t\"Mail\": \"barak@rnbsolutions.net\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t},\n\t\t\t{\n\t\t\t\t\"Mail\": \"ClientMail@test.com\",\n\t\t\t\t\"IsUserMail\": false\n\t\t\t}\n\t\t\t]\n\t},\n\t\"token\": \"C4348C4C7A62E522E106ADB9F0C4998138817141816C060C227D560EF613A66E0E264E89A2990E7AD49F74C2ABA00DC85F20B61063A1A2318A5D2320771E6DD18D68DD814B08FDCCC1BF73B10FFF7BACC8C40ED45F5D9597F4442B2D98B32F1D204BF0AE919ADD875FB431A054ADEB105DB11D2585D7CFC502DB7E0D777ECBA5B2223B45DC180C0BDC16B1AF229A573EA3529A227AAF360BF993B9584AA5946B651FFCE4E2684A4B96ACD6BDB20E5D5D6B56549EB3450F2C218FDA317A0A1FC8C25C80636A04A0FB5979BD2682088C5CB5A76943DCDB628C198881D2E5DA1D6705B1CC57AA6341F2C8F87CE74AD48A7262C479CD6F622019BDB88FF08BEF936EC41C326BD2BFEFBCBA9C7179A2C6D19FB6C7AD3CA96B23C6F13352B1E0EA3249E3C395F8439C64B5FF12B0252FAB9DEF61FB6844E25005B9CB759F6EFA3FCAF6C94A2DFD58C29F1164E448C770E6751094A83E31C66EA2502C471DEB210E8100F480FC9DC4CD5128D281EC01E9D4EBA5A219635A5E50781EF1303B18157A9BD5B882E3AB13F19601DD85D0343A91A7F3F74747CDD5A86A2BCB19506AEED4A9136EB6EDEE5ADF6181F92BD8E3F29EDE610FD4DE4B931EC5C6F5A520D61A8D4817D4ADA2CDFF8D39F40FC7BA55DF83A5A318F8A48EC909F5EA95241680574417B60F69BEB97FE4BC5D6E79174A3D824E7918974A080EB1635364188D4996D5F5A744EFA90A9685F19BF0CEDFE3845DAC2E44302EAF05608DE18AB464EE41A8C88B2F153CDDF5E621218012BEC7D4976AF04A4E65C0B30A56722859308E46BBAE2B1411B079671A3C8826F3E9C1E98093B2E61A52C5D96238F4CD2C97206DEEABD9D0D4F9F5CA17137BC573F524EE7034C10EA94FE80B03BD47923DC7F7E271B22D55E039956E649D0DFE75B7698117260FD1AFA0AFF7382E609E63C9FE4E790324C263C3057702A9D5B9710669E376BD6D7F397C8D4DB6F7B4827E9AC7A9CF96E833176A4F0D29B9050D63DFBA9C7E88651A2924A9CA21CB70E7A82E944E515453377C841E\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/CreateDocument",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"CreateDocument"
+					],
+					"query": [
+						{
+							"key": "DocumentType",
+							"value": "2",
+							"description": "[*] (int)DocumentType.Receipt",
+							"disabled": true
+						},
+						{
+							"key": "ClientID",
+							"value": "",
+							"description": "[*A] (int)",
+							"disabled": true
+						},
+						{
+							"key": "Subject",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Currency",
+							"value": "",
+							"description": "(string)",
+							"disabled": true
+						},
+						{
+							"key": "Items",
+							"value": "",
+							"description": "[*] (array of \"Item\" objects)",
+							"disabled": true
+						},
+						{
+							"key": "Payments",
+							"value": "",
+							"description": "[*] (array of \"Payment\" objects)",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Create an invoice with 2 items and all possible parameters"
+			},
+			"response": []
+		},
+		{
+			"name": "Search documents",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"dr\": {\r\n\t\t\"DocumentType\": 1,\r\n\t\t\"From\": \"/Date(1583186400000+0200)/\",\r\n\t\t\"To\": \"/Date(1617768617697)/\",\r\n\t\t\"DocumentNumber\": 0,\r\n        \"ClientID\" : null,\r\n        \"FromAmount\":0,\r\n        \"ToAmount\" : 10000\r\n\t},\r\n\t\"token\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetDocuments",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetDocuments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get document by GUID",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"docId\": \"C76C28ED-2030-4D25-979C-7A132AEC0240\",\r\n\t\"token\": \"673F3016204B4D3C3A32799EDE0B273C9F8CAEA12C9E921A7A021529EC9266F9605004D7FD406D755BB0ECBC68F5780E6B8D269FD8E2E9A569AF97644CD3D85E7278C250CD245644F35ED94008C77F0D55E98678C1CD47A99371213C7E7EA40E31E8243C346441A27DE2EAE5CF425C8A53F4FBBB4692284625A160526887F3C2FD0C0C90E1A074EFE7196008512E41E8C540A8CA489929FC05B6EE2742A0128E20092F5EF17D2EB923AFDBF5CFA7BC9FD71A05A63A1FF7DF9D93031741FE39ABE877B733ECBF0DFD1A50117408BF235B59BBD246FC65BC618A93B5900BD0BE7D32926311FAA6B798834BA4D56AD1B8448F6F2208605ABFCD2406C79F718AA8B05A77F1CF3CE13AE832C4B79AC26F25192C7BDD092FB3E361A6C55812D9851A32D672593AD69E635AA175C98CFAC697D3CD2ABB0CC73F2D2F0F1D5DD605EEC1E46072FB9AACE794AF4D74969FE8E13045C751D852E8463F5A0A947FF1B6BD52ABFD829E344C64920A5B136C4FE877350809729DB1F13A7A20AA950AD10D3E36AB6B73D26FEC8334C42576CFA27818DEBEF50190D4BA178B951622B0FE8BCDC11D550A3D88F52D4C60AA1FC658BA1E54440B648AC8366023974F166A7237294EC97E35E307F33C865B18028A77FB838ADEB9EC2884AFB3E2E1B23B76746C37199380C1DC9B1A02A1A139F3D3F20C10320F1E45E8685D87A22E0CA022A63191FE2E8285AFDA223FD2EA631A142919A9FA18D7844A5CD8E55D5EB570937380792AB236E27CDCA791F68118E1DC7A9F90C9FE966C016BAF132BD5A19BB03949DF3EA565D1A8EAEE739A6F29FCA46236BC8CDF2C2BD2838010E5CCD290018AE34CC7FDF90337EB329766A281CD69380CAA0544B784AE9B4E845E14C1042FD426DDC6DE7777864CBE23EE550AEA2768EB7A9F78C1FB41D571D6F294EA4298E5EE1703BEFCD3B1B4B7075F7E39E19BC78D8D7F8E4D1DC1E3D605EDA8BFD5E306F79ED9223A0CB46070C13C5E79BBDB5980EDA4C27B7858BDE9DE8CDC1C9425267492339452A25A72\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetDocument",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetDocument"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get document by Api identifier REST",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"apiIdentifier\": \"WC_CLR_8477\",\r\n    \"docType\": \"3\",\r\n\t\"token\": \"52d93f0c-444f-4e5c-bccb-91a7c78e1060\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetDocumentByApiIdentifierREST",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetDocumentByApiIdentifierREST"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get document by number",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"docId\": \"\",\r\n\t\"token\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/GetDocument",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"GetDocument"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Change document status",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"docs\": [\r\n            {\r\n                \"__type\": \"Document:#Invoice.Common\",\r\n            \"Errors\": [],\r\n            \"Info\": [],\r\n            \"OpenInfo\": [],\r\n            \"ActualCreationDate\": \"/Date(1647333870083+0200)/\",\r\n            \"AllowPaymentsOnDoc\": true,\r\n            \"Amount\": 0,\r\n            \"ApiDuplicityTimeValidation\": 60,\r\n            \"ApiIdentifier\": null,\r\n            \"AssociatedEmails\": null,\r\n            \"AttachmentFileName\": null,\r\n            \"AttachmentOriginalFileName\": null,\r\n            \"Attachments\": null,\r\n            \"AutoFixMismatchItemName\": null,\r\n            \"AutoFixPaymentsMismatchItems\": null,\r\n            \"Balance\": 0,\r\n            \"BankAccount\": null,\r\n            \"BaseDocId\": null,\r\n            \"BranchID\": 40904,\r\n            \"CancelDocument\": null,\r\n            \"CipherText\": \"ZWvkxIsGdVuTBSn24ujNys2H1fo8Ce6t0BmvEOOq6hyFf76ex9PaxEn1YDcXcMmfg22L5UVqD1oFNmXCeYfxE7H4QwGhLsupZ86q8%2f4etskARaBdRjkgqwKl6BJNDCQV\",\r\n            \"CipherTextOriginal\": \"xSxEdzy%2bK4b5Quzr4jhqPCdysMO849W0%2ftISuS6rgPmK4aak1U3SEWQGr2%2blM3ojZw4Zj5bc5%2btlYHS593FUmNLPVKHPyZ0R%2fxNb2Qn9QyNp2WRwerZnoed%2f2vS30r%2b335qUK8kLr56rG1kfw8%2foTQ%3d%3d\",\r\n            \"ClearingLogId\": null,\r\n            \"ClientEmail\": null,\r\n            \"ClientID\": 292892,\r\n            \"ClientName\": null,\r\n            \"CloseReceipt\": false,\r\n            \"ConversionRate\": 1,\r\n            \"ConversionRateDecimal\": 0,\r\n            \"ConversionRateToILS\": 0,\r\n            \"ConvertToILS\": false,\r\n            \"Credit\": 0,\r\n            \"CreditAmount\": 0,\r\n            \"Currency\": \"ILS\",\r\n            \"CurrencyName\": null,\r\n            \"CurrentDate\": null,\r\n            \"Debit\": 0,\r\n            \"DebitTransaction\": 0,\r\n            \"Deduction\": 0,\r\n            \"DepartureHour\": 0,\r\n            \"DepartureMinute\": 0,\r\n            \"Discount\": {\r\n                \"__type\": \"Discount:#Invoice.Common\",\r\n                \"Errors\": [],\r\n                \"Info\": [],\r\n                \"OpenInfo\": [],\r\n                \"BeforeTax\": true,\r\n                \"IsNominal\": true,\r\n                \"Value\": 0,\r\n                \"ValueDecimal\": 0\r\n            },\r\n            \"DocumentNumber\": 11075,\r\n            \"DocumentReffType\": 0,\r\n            \"DocumentType\": 1,\r\n            \"DocumentTypeOldSys\": 0,\r\n            \"DraftId\": \"00000000-0000-0000-0000-000000000000\",\r\n            \"EmailCustomComment\": null,\r\n            \"ExternalComments\": \"\",\r\n            \"First\": false,\r\n            \"GeneralClientId\": 0,\r\n            \"GeneralCustomer\": null,\r\n            \"ID\": \"e9c1b62e-dad8-4a78-b2ad-f2e8d8970456\",\r\n            \"InternalComments\": \"\",\r\n            \"Invoices\": null,\r\n            \"Is2SignDoc\": null,\r\n            \"IsBillingDemand\": null,\r\n            \"IsDiscountNominal\": false,\r\n            \"IsDonation\": null,\r\n            \"IsOldSystemDocument\": false,\r\n            \"IsPreviewDocument\": false,\r\n            \"IsSelfInvoice\": false,\r\n            \"IsSendUserMail\": null,\r\n            \"IsSignedBy2Sign\": null,\r\n            \"IssueDate\": \"/Date(1647295200000+0200)/\",\r\n            \"Items\": [\r\n                {\r\n                    \"__type\": \"DocumentItem:#Invoice.Common\",\r\n                    \"Errors\": [],\r\n                    \"Info\": [],\r\n                    \"OpenInfo\": [],\r\n                    \"Avrage\": 0,\r\n                    \"Code\": \"\",\r\n                    \"ConversionRate\": 0,\r\n                    \"Currency\": null,\r\n                    \"Description\": null,\r\n                    \"Discount\": {\r\n                        \"__type\": \"Discount:#Invoice.Common\",\r\n                        \"Errors\": [],\r\n                        \"Info\": [],\r\n                        \"OpenInfo\": [],\r\n                        \"BeforeTax\": false,\r\n                        \"IsNominal\": false,\r\n                        \"Value\": 0,\r\n                        \"ValueDecimal\": 0\r\n                    },\r\n                    \"ID\": 27543805,\r\n                    \"IsCalcBeforeTax\": false,\r\n                    \"IsDiscountNominal\": false,\r\n                    \"LawyerIdentifier\": null,\r\n                    \"Name\": \"dfg\",\r\n                    \"Price\": 100,\r\n                    \"PriceDecimal\": 0,\r\n                    \"PriceFullInput\": 0,\r\n                    \"PriceFullInputDecimal\": 0,\r\n                    \"PriceIncludeTax\": 0,\r\n                    \"Quantity\": 1,\r\n                    \"QuantityDecimal\": 0,\r\n                    \"TaxPercentage\": 17,\r\n                    \"TaxPercentageDecimal\": null,\r\n                    \"Total\": 117,\r\n                    \"TotalCredit\": 0,\r\n                    \"TotalDecimal\": 0,\r\n                    \"TotalTax\": 17,\r\n                    \"TotalTaxDecimal\": 0,\r\n                    \"TotalWithoutTax\": 100,\r\n                    \"TotalWithoutTaxDecimal\": 0,\r\n                    \"UserCatalogID\": 0,\r\n                    \"UserCategoryID\": 0\r\n                }\r\n            ],\r\n            \"Language\": 1,\r\n            \"LawyerDocType\": null,\r\n            \"MailsAttached\": \"barak@invoice4u.co.il,barak@rnbsolutions.net,barak@invoice4u.co.il,barak@2sign.co.il\",\r\n            \"OldSystemDocGuid\": null,\r\n            \"OldSystemId\": 0,\r\n            \"OrganizationID\": 5506,\r\n            \"OrganizationUniqueID\": \"\",\r\n            \"Paid\": 0,\r\n            \"PaymentDueDate\": \"/Date(1653944400000+0300)/\",\r\n            \"Payments\": null,\r\n            \"PrintCertifiedCopyPDFLink\": null,\r\n            \"PrintOriginalPDFLink\": null,\r\n            \"ReceiptAmount\": 100,\r\n            \"RootOrganizationId\": 0,\r\n            \"RoundAmount\": 0,\r\n            \"RoundAmountDecimal\": 0,\r\n            \"SmsMessages\": null,\r\n            \"Status\": null,\r\n            \"StatusID\": 1,\r\n            \"Subject\": \"\",\r\n            \"TaxIncluded\": false,\r\n            \"TaxPercentage\": 17,\r\n            \"TaxPercentageDecimal\": null,\r\n            \"ToRoundAmount\": false,\r\n            \"Total\": 117,\r\n            \"TotalDecimal\": 0,\r\n            \"TotalTaxAmount\": 17,\r\n            \"TotalTaxAmountDecimal\": 0,\r\n            \"TotalTaxExempt\": null,\r\n            \"TotalTaxExemptDecimal\": null,\r\n            \"TotalWithoutTax\": 100,\r\n            \"TotalWithoutTaxDecimal\": 0,\r\n            \"UniqueID\": \"e9c1b62e-dad8-4a78-b2ad-f2e8d8970456\",\r\n            \"UseDecimalValues\": null,\r\n            \"UserID\": 5506\r\n            }\r\n        ],\r\n\t\"token\": \"4B0C874A64D096DD2C84D4D3E1C4D57CB7331DFAF4D4E0842DB12DDA2FE75805D2CFDE1A06A0F64121FB772DEC56265A29332844B0F784559928694415453FEC378FDA12DCE0D9150EEF46E80EB5953FE5E50C6E41AAE6D327C23FBE61A8EF28A3B498A89E08FBD45996A8BBE9676D11F659EFA96EF9529E83F9F487F94E23B95D1023EEB7E71E9683F33DDB7FEEFE0F5E9A203EE79314FAB3D204E795F6C43C92B01223DBB692187330EC4BF6C9C757FEF7B9AD80A7AC2B3615CAAF3D28AA6872EC51E059D68F0CDE7EAD910D5696916DC3ED8A3C0608913B95E60697178532B07AE8E5D2424083B851028C972EAF18D1E484548E8F32CE15D9D6E3DB08D3F3DAD11643A10D5E95D772B1CE33993F56BBAC353EC30177E86552728B5CD466E9A39CE46B655FE8C88DD2B469DE9CC2F598F0D81D3A5746A5EAD90F68E728D50CD1572689E10AE3776564EF03C44F62C149BB77349B2E50E122F9AD7E56A25B30F5C59257FFCE30AEF6579051B4556BD4DFBA13A512DC03EC621B9C326C08EFDC4B6A7B879DFB2A9528E5AB01FB316474C00C12254053D649DFB4A8C97E74A5CB34E21696524A346E734DA2DEC3EBDA5E65C18668CB46E9E4235AF24414F7F2994D03D6A3BD22D9AB9E6AEB43F83D27B93C5314D799ACEF4D2A30000AEF48375B78C0946B960B0A3AF06EE85BA7D87E3BC83B6298DDB204098DEFC3E8529755FD395CAAE783B7CB82A0F64311569C8BCA766F2BF7371DBCB57217A1D7E31FBF27D7AF6B020C64E1B95080FAF0DCDFDFA5347F45A0229850DCA25C752370807DC0B5A4BB6FA8252BA5770EF3E8CF500B40EC449137A4101D957D90BDC8E748B708C09FDA2987539DC2138FA51C23D7D3BEF0BEF558BE096AD4E103874FC57F0C18A194DD6FFBCE5887216373D10950B1F6B301E2992ADA7C9FE71B70EF54AC6CC1BAE61C43F1D41F4FFBA9961BF257C9D6BFCAC29359F66DC6BFBB08C4715AA443143C0F59\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/ChangeDocumentStatus",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"ChangeDocumentStatus"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "User registration API",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"user\": {\r\n        \"Email\" : \"testmaflaffd-reg3@gmail.com\",\r\n        \"UserPassword\": \"NewPass1234!\",\r\n        \"FirstName\" :\"Israel\",\r\n        \"LastName\" :\"Israeli\",\r\n        \"Phone\" :\"034444444\",\r\n        \"Mobile\" : \"0522222222\",\r\n\t\t\"CompanyName\": \"new-user-reg\",\r\n        \"TaxRate\" :\"17\",\r\n        \"OrganizationUniqueId\" : \"034693671\",\r\n        \"BundleID\" : \"23\",\r\n        \"ApiActive\": \"true\",\r\n        \"ApiKey\" : \"\",\r\n        \"IsFinishRegistration\" : \"true\"\r\n\t},\r\n\t\"token\": \"C4348C4C7A62E522E106ADB9F0C4998138817141816C060C227D560EF613A66E0E264E89A2990E7AD49F74C2ABA00DC85F20B61063A1A2318A5D2320771E6DD18D68DD814B08FDCCC1BF73B10FFF7BACC8C40ED45F5D9597F4442B2D98B32F1D204BF0AE919ADD875FB431A054ADEB105DB11D2585D7CFC502DB7E0D777ECBA5B2223B45DC180C0BDC16B1AF229A573EA3529A227AAF360BF993B9584AA5946B651FFCE4E2684A4B96ACD6BDB20E5D5D6B56549EB3450F2C218FDA317A0A1FC8C25C80636A04A0FB5979BD2682088C5CB5A76943DCDB628C198881D2E5DA1D6705B1CC57AA6341F2C8F87CE74AD48A7262C479CD6F622019BDB88FF08BEF936EC41C326BD2BFEFBCBA9C7179A2C6D19FB6C7AD3CA96B23C6F13352B1E0EA3249E3C395F8439C64B5FF12B0252FAB9DEF61FB6844E25005B9CB759F6EFA3FCAF6C94A2DFD58C29F1164E448C770E6751094A83E31C66EA2502C471DEB210E8100F480FC9DC4CD5128D281EC01E9D4EBA5A219635A5E50781EF1303B18157A9BD5B882E3AB13F19601DD85D0343A91A7F3F74747CDD5A86A2BCB19506AEED4A9136EB6EDEE5ADF6181F92BD8E3F29EDE610FD4DE4B931EC5C6F5A520D61A8D4817D4ADA2CDFF8D39F40FC7BA55DF83A5A318F8A48EC909F5EA95241680574417B60F69BEB97FE4BC5D6E79174A3D824E7918974A080EB1635364188D4996D5F5A744EFA90A9685F19BF0CEDFE3845DAC2E44302EAF05608DE18AB464EE41A8C88B2F153CDDF5E621218012BEC7D4976AF04A4E65C0B30A56722859308E46BBAE2B1411B079671A3C8826F3E9C1E98093B2E61A52C5D96238F4CD2C97206DEEABD9D0D4F9F5CA17137BC573F524EE7034C10EA94FE80B03BD47923DC7F7E271B22D55E039956E649D0DFE75B7698117260FD1AFA0AFF7382E609E63C9FE4E790324C263C3057702A9D5B9710669E376BD6D7F397C8D4DB6F7B4827E9AC7A9CF96E833176A4F0D29B9050D63DFBA9C7E88651A2924A9CA21CB70E7A82E944E515453377C841E\",\r\n    \"uniqueToken\": \"\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/UserRegistrationApi",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"UserRegistrationApi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Document  as byte[]",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"docId\": \"3212770B-4200-4461-926E-3A169AB03361\",\r\n    \"docNumber\": \"50029\",\r\n    \"isOriginal\": true,\r\n    \"isReCreate\": false,\r\n    \"outerToken\": \"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://newview.invoice4u.co.il/Services/PrintService.svc/GetDocument",
+					"protocol": "https",
+					"host": [
+						"newview",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"PrintService.svc",
+						"GetDocument"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Send Document by mail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"doc\": {\r\n\t\t\"ID\": \"df94702e-bfb4-4372-a1dc-aade6cbdd059\",\r\n        \"AssociatedEmails\": [\r\n            {\r\n                    \"Mail\": \"barak@rnbsolutions.net\",\r\n                    \"IsUserMail\": false\r\n            }\r\n        ]\r\n\t},\r\n\t\"token\": \"038A2F977CE248AE82E5848BBC78E47B146C38F6FFB1D8DDBE4DE472EAB4C1BB7DA8B5C0866C7264AABE1A23A8F0EF2B518A87B1EBB12F1FB389FC8A8879E8B982CE8C0CBA662782D716B5524326411553A44DC17AC08D94E061B70CB11B0290D588DF2D3D02F9FED236F60646BD012BC08C8DBC93D5DBA17F9478CFEEEA64C9EC1980873B679590C22AC6A556CB2F4517099503A1A7579FCF81B707A3827AF0B67A11FA9062D6437B6F6348FF80FAF32EC1BEE3650BD527B8046D560390BABCF88C25D262D0CF6E76E02E66002EC6F8E0C25517F72EEDE5401B38D6FD02CE4FC5C79D77B9FEEA701B07A102130C90942ED0ECB82D77FF43F79746672B0F23760589EE3EADE68A57DB8B563924FAE069E17F5291735E858D4A2B0194179499DEA55FC6950B924C7EA5999FF3672D5E6353BB6F0ABD526AF12985B9EEAD796B9FBD92557FC9174A97DE7AF3AD092493FE54F775CC9AF2C36AD9015BD3A6C09D083274C07C61E2BAE50D8C91A1E25A3E24E53039F34CBD818AD044768410050828DFF5EDF09D77CC47785F869DF65E1A2C08CD7751C84CBA6D0D6F6233DE0E9C9D9691A2BB75849F66F0178BFDB79696FF68F33F2038347F7AB1534DE79E0531B8874277C9F9C9DA2F674A311723542B4F34F4AD13995295A209FB4F56C1C35DCE63FC18700D047E37A0236CA5B3768C222636E1FD704070957E6925FF1AA8067B5B3CCDBBBE4A6D677C1D22495A9E93E366C1D22A1B73E4E3B72460A686923DFFFB95D70B31824D88D2D0682D70529F195E31E888A91629F5B926EDF47CC83CA03491ADDAA9598AA76DD6BDD65286958F7C5218E29C3F624F13E5821AB1D9027A6D150FE9BE715BF9A884F7D8F06CEE378152C9EC8EA6A637E78C076AFB3ECC578B4C78ABCAA64E270FCC3FEDF9C3FDF31420EF5233F3F4EC444ECCE7FC28999958C5AAE3799B2B69AFCAEFFEEDC636F515D6A6FD8E40C5635FDB7ACD76CBCE50158B1125\"\r\n}"
+				},
+				"url": {
+					"raw": "https://api.invoice4u.co.il/Services/ApiService.svc/SendDocumentByMail",
+					"protocol": "https",
+					"host": [
+						"api",
+						"invoice4u",
+						"co",
+						"il"
+					],
+					"path": [
+						"Services",
+						"ApiService.svc",
+						"SendDocumentByMail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

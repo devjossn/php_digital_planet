@@ -1,0 +1,84 @@
+html,
+body {
+  font-size: 16px;
+  height: 100%;
+}
+body {
+  color: #424242;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  background-image: url(../images/bg-coming-soon.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+.wrapper {
+  flex: 1;
+}
+header {
+  background-color:transparent;
+}
+.logo img,
+.logo svg {
+  margin-top: 3em;
+  height:100px;
+}
+.logoshape1,
+.logoshape3 {
+  fill: #fff!important;
+}
+.logoshape2 {
+  fill: #C0392B!important;
+}
+.dash {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  padding:0 2em;
+  display: block;
+  float: left;
+}
+.dash .digit {
+  font-size: 80px;
+  line-height:80px;
+  font-weight: 700;
+  width: 50%;
+  float: left;
+  text-align: center;
+  position: relative;
+  color:#fff;
+}
+.dash .first {
+  text-align: right
+}
+.dash .last {
+  text-align: left
+}
+.dash_title {
+  display: block;
+  font-size: .750em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 20px;
+  margin-top:5px;
+  height: 20px;
+  color:rgba(255,255,255,0.5)
+}
+.grad {
+  background: linear-gradient(to right, #54A0D2 0%, #5154B1 12%, #511E7D 21%, #671955 37%, #CC2119 53%, #F57713 65%, #F8DF68 83%, #5CF1F5 100%);
+  height: 12px;
+}
+.copy {
+  padding:2em;
+  color:#fff;
+  font-size: .750em;
+  text-align: center;
+}
+

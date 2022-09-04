@@ -1,0 +1,37 @@
+:root {
+ --primary-color: #009688;
+ --primary-color-hover: #00897B;
+ --primary-color-inverted: #B2DFDB;
+}
+
+::-moz-selection {
+background: #009688;
+}
+::selection {
+  background: #009688;
+}
+/* == Forms == */
+.wojo.form textarea:focus,
+.wojo.form input:not([type]):focus,
+.wojo.form input[type="date"]:focus,
+.wojo.form input[type="datetime-local"]:focus,
+.wojo.form input[type="email"]:focus,
+.wojo.form input[type="number"]:focus,
+.wojo.form input[type="password"]:focus,
+.wojo.form input[type="search"]:focus,
+.wojo.form input[type="tel"]:focus,
+.wojo.form input[type="time"]:focus,
+.wojo.form input[type="text"]:focus,
+.wojo.form input[type="url"]:focus,
+.wojo.form input[type="text"]:focus,
+.wojo.form select:focus {
+  box-shadow: 0 0 0 3px rgba(0, 150, 136, .5);
+}
+.wojo.input.focus {
+  box-shadow: 0 0 0 3px rgba(0, 150, 136, .5);
+}
+/* == Utility == */
+.logoshape1,
+.logoshape3 {
+  fill: #B2DFDB!important;
+}
